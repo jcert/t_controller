@@ -23,7 +23,7 @@ class encoder:
 		table = [0,-1,1,0,
 	            1,0,0,-1,
 	            -1,0,0,1,
-	            01,-1,0]
+	            0,1,-1,0]
 		return table[4*old+new]       
 	
 	def update():
