@@ -6,12 +6,13 @@ class encoder:
 	DEL_TIME = 1 #in seconds
 	#pins of the encoder
 	def __init__(self,pinA, pinB, pinC):
-		self.A = pinA
-		self.B = pinB
-		self.C = pinC
+		self.A = pinA #read pin
+		self.B = pinB #read pin
+		self.C = pinC #write pin
 
-		RPIO.setup(7, RPIO.IN, pull_up_down=RPIO.PUD_UP)
-		
+		RPIO.setup(self.A, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
+		RPIO.setup(self.B, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
+		RPIO.setup(self.C, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
 
 		self.S1 = GPIO.input(A)
 		self.S2 = GPIO.input(B)
