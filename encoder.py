@@ -12,7 +12,7 @@ class encoder:
 
 		RPIO.setup(self.A, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
 		RPIO.setup(self.B, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
-		RPIO.setup(self.C, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
+		RPIO.setup(self.C, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)#this should be output, probably to HIGH to make detection easier
 
 		self.S1 = GPIO.input(A)
 		self.S2 = GPIO.input(B)
