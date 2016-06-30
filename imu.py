@@ -14,11 +14,11 @@
 
 import smbus
 import time
-bus = smbus.SMBus(0)
 #0x19 & 0x1E & 0x6B
 #address = 0xAA # check to see the addresses of each module of the imu
 #bus.read_byte_data(address_to_device, register) #register is read as cmd in the smbus files
 class IMU_device:
+		bus = smbus.SMBus(0) #the bus is global
 	def __init__(self,accel_address,gyro_address,comp_address):
 		self.accel = IMU_accel(accel_address)
 		self.gyro  = IMU_gyro(gyro_address)
