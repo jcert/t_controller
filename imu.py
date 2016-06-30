@@ -18,7 +18,7 @@ import time
 #address = 0xAA # check to see the addresses of each module of the imu
 #bus.read_byte_data(address_to_device, register) #register is read as cmd in the smbus files
 class IMU_device:
-		bus = smbus.SMBus(0) #the bus is global
+		bus = smbus.SMBus(0) #the bus is global if something else accesses the i2c, maybe there'll be a problem
 	def __init__(self,accel_address,gyro_address,comp_address):
 		self.accel = IMU_accel(accel_address)
 		self.gyro  = IMU_gyro(gyro_address)
@@ -54,7 +54,6 @@ class IMU_gyro:
 		self.z |= bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
 		return [x,y,z]
 
-
 class IMU_comp:
 	def __init__(self,device_address):
 		self.address = device_address
@@ -69,8 +68,4 @@ class IMU_comp:
 		self.z  = bus.read_byte_data(self.address, 0x08) << 8 #read and shift to MSB
 		self.z |= bus.read_byte_data(self.address, 0x07)      #read LSB and combine with previous
 		return [x,y,z]
-
-
-
-
 
