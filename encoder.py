@@ -6,7 +6,7 @@ class encoder:
 	DEL_TIME = 1 #in seconds
 	#pins of the encoder
 	def __init__(self,pinA, pinB, pinC):
-		self.A = pinA #read pin
+		self.A = pinA #read pin #maybe the reading pins could be global and the C be an address, would save many pins
 		self.B = pinB #read pin
 		self.C = pinC #write pin
 
