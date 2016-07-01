@@ -23,7 +23,8 @@ def main():
 	encoder_thread.start()
 
 	wheels= threading.Thread(target=wheelsFunction)
-
+	while True:
+		pass
 
 if __name__ == "__main__":
     main()
