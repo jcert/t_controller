@@ -2,13 +2,18 @@ import RPIO #gpio library of choice, gives us better pwm
 import time
 
 class encoders:
+	FREQ = 100 # sampling frequency for the encoders 
 	connected_encoders = [] 
 	def __init__(self,pinA, pinB): #pin A and B will be global
 		A = pinA #read pin #maybe the reading pins could be global and the C be an address, would save many pins
 		B = pinB #read pin
 		RPIO.setup(A, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
 		RPIO.setup(B, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
-	
+	def update_loop(self):
+		while True:
+			self.update
+			time.sleep(1.0/FREQ)
+
 	def update():
 		for i in connected_encoders:
 			i.update()
