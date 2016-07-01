@@ -21,9 +21,13 @@ def main():
 	#should we worry about debouncing the encoder?
 	encoder_thread =  threading.Thread(target=encoder_group.update_loop)
 	encoder_thread.start()
+	
+	#control = Control(encoder_group,my_imu,##motor##,##esc##);
+	#control.start()
 
 	wheels= threading.Thread(target=wheelsFunction)
 	while True:
+		#control.iteration()
 		pass
 
 if __name__ == "__main__":
