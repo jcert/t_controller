@@ -19,14 +19,8 @@ def main():
 	
 	#this will keep checking the encoders for position change
 	#should we worry about debouncing the encoder?should we group the updates in some way? probably
-	encoder_thread1 =  threading.Thread(target=my_encoder1.update)
-	encoder_thread2 =  threading.Thread(target=my_encoder2.update)
-	encoder_thread3 =  threading.Thread(target=my_encoder3.update)
-	encoder_thread4 =  threading.Thread(target=my_encoder4.update)
-	encoder_thread1.start()
-	encoder_thread2.start()
-	encoder_thread3.start()
-	encoder_thread4.start()
+	encoder_thread =  threading.Thread(target=encoder_group.update)
+	encoder_thread.start()
 
 	wheels= threading.Thread(target=wheelsFunction)
 
