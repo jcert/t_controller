@@ -2,12 +2,17 @@ import RPIO #gpio library of choice, gives us better pwm
 import time
 
 class encoders:
+	connected_encoders = [] 
 	def __init__(self,pinA, pinB): #pin A and B will be global
 		A = pinA #read pin #maybe the reading pins could be global and the C be an address, would save many pins
 		B = pinB #read pin
 		RPIO.setup(A, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
 		RPIO.setup(B, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
 	
+	def update():
+		for i in connected_encoders:
+			i.update()
+
 	class encoder:
 		ENCODER_TICKS_TURN = 20 #number of ticks per full rotation of the shaft
 		DEL_TIME = 1 #in seconds
@@ -18,7 +23,7 @@ class encoders:
 			self.S2 = GPIO.input(B)
 			self.state = S1 + 2*S2
 			self.start_time = time.clock()
-
+			connected_encoders.append(self)
 		def fsm(old,new):
 			table = [0,-1,1,0,
 						1,0,0,-1,
