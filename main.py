@@ -18,8 +18,8 @@ def main():
 	my_encoder4 = encoder_group.encoder(0)#find the real pins the encoder will be attached to
 	
 	#this will keep checking the encoders for position change
-	#should we worry about debouncing the encoder?should we group the updates in some way? probably
-	encoder_thread =  threading.Thread(target=encoder_group.update)
+	#should we worry about debouncing the encoder?
+	encoder_thread =  threading.Thread(target=encoder_group.update_loop)
 	encoder_thread.start()
 
 	wheels= threading.Thread(target=wheelsFunction)
