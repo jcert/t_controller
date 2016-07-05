@@ -37,7 +37,7 @@ class motor(object):
         self.__kv = kv
 
     def setWLimits(self, WMin, WMax):
-        "set the pin for each motor"
+        "set the pin for each motor" #how this is pin? shouldnt it be power or something?
         if WMin < 0:
             WMin = 0
         self.__WMin = WMin
