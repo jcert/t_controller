@@ -10,7 +10,7 @@
 #sudo reboot
 
 #test if you have installed all of it
-#i2cdetect -y 0
+#i2cdetect -y 1 #the bus in the pi is #1, zero doesn't exist
 
 import smbus
 import time
@@ -18,7 +18,7 @@ import time
 #address = 0xAA # check to see the addresses of each module of the imu
 #bus.read_byte_data(address_to_device, register) #register is read as cmd in the smbus files
 class IMU_device:
-		bus = smbus.SMBus(0) #the bus is global if something else accesses the i2c, maybe there'll be a problem
+	bus = smbus.SMBus(1) #the bus is global if something else accesses the i2c, maybe there'll be a problem
 	def __init__(self,accel_address,gyro_address,comp_address):
 		self.accel = IMU_accel(accel_address)
 		self.gyro  = IMU_gyro(gyro_address)
