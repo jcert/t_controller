@@ -1,0 +1,8 @@
+
+to connect to the raspberry pi via ethernet cable on linux,
+first go to the wired connection options/ipv4 and share connection
+now the pi should connect ot the internet using your wifi, and will
+have an IP.
+check connection info for your IP as host, use it on nmap (the terminal command)
+to find the RPi IP, connect via ssh using:
+ssh pi@<its IP>
