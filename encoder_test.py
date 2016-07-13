@@ -2,7 +2,7 @@ import encoder
 import time
 
 
-component_measure = encoders(20,21) #pins A and B
+component_measure = encoder.encoders(20,21) #pins A and B
 component    =    component_measure.encoder(16) #pin C
 
 
