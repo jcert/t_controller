@@ -1,0 +1,1117 @@
+Script started on Tue 12 Jul 2016 12:28:36 PM EDT
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get ins tall gstreamer1.0-r[K
+gstreamer1.0-alsa                      gstreamer1.0-plugins-base
+gstreamer1.0-clutter                   gstreamer1.0-plugins-base-apps
+gstreamer1.0-clutter-3.0               gstreamer1.0-plugins-base-dbg
+gstreamer1.0-crystalhd                 gstreamer1.0-plugins-base-doc
+gstreamer1.0-doc                       gstreamer1.0-plugins-good
+gstreamer1.0-dvswitch                  gstreamer1.0-plugins-good-dbg
+gstreamer1.0-espeak                    gstreamer1.0-plugins-good-doc
+gstreamer1.0-fluendo-mp3               gstreamer1.0-plugins-ugly
+gstreamer1.0-hybris                    gstreamer1.0-plugins-ugly-amr
+gstreamer1.0-libav                     gstreamer1.0-plugins-ugly-dbg
+gstreamer1.0-libav-dbg                 gstreamer1.0-plugins-ugly-doc
+gstreamer1.0-nice                      gstreamer1.0-pocketsphinx
+gstreamer1.0-packagekit                gstreamer1.0-pulseaudio
+gstreamer1.0-plugins-bad               gstreamer1.0-tools
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-vaapi
+gstreamer1.0-plugins-bad-doc           gstreamer1.0-vaapi-doc
+gstreamer1.0-plugins-bad-faad          gstreamer1.0-x
+gstreamer1.0-plugins-bad-videoparsers  
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plu[K[K[K
+gstreamer1.0-alsa                      gstreamer1.0-plugins-base
+gstreamer1.0-clutter                   gstreamer1.0-plugins-base-apps
+gstreamer1.0-clutter-3.0               gstreamer1.0-plugins-base-dbg
+gstreamer1.0-crystalhd                 gstreamer1.0-plugins-base-doc
+gstreamer1.0-doc                       gstreamer1.0-plugins-good
+gstreamer1.0-dvswitch                  gstreamer1.0-plugins-good-dbg
+gstreamer1.0-espeak                    gstreamer1.0-plugins-good-doc
+gstreamer1.0-fluendo-mp3               gstreamer1.0-plugins-ugly
+gstreamer1.0-hybris                    gstreamer1.0-plugins-ugly-amr
+gstreamer1.0-libav                     gstreamer1.0-plugins-ugly-dbg
+gstreamer1.0-libav-dbg                 gstreamer1.0-plugins-ugly-doc
+gstreamer1.0-nice                      gstreamer1.0-pocketsphinx
+gstreamer1.0-packagekit                gstreamer1.0-pulseaudio
+gstreamer1.0-plugins-bad               gstreamer1.0-tools
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-vaapi
+gstreamer1.0-plugins-bad-doc           gstreamer1.0-vaapi-doc
+gstreamer1.0-plugins-bad-faad          gstreamer1.0-x
+gstreamer1.0-plugins-bad-videoparsers  
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-*
+[sudo] password for certorio: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+Note, selecting 'gstreamer1.0-plugins-ugly-amr' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-videosink' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-alsa' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-ugly-dbg' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-ugly-doc' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-base-apps' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-hybris:i386' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-tools' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-good' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-qapt' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-espeak' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-nice' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-videosource' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-crystalhd' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-fluendo-mp3' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-bad' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-base' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-audiosource' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-bad-videoparsers' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-really-bad' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-clutter' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-pulseaudio' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-pocketsphinx' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-bad-dbg' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-bad-doc' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-visualization' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-bad-faad' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-lame' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-x' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-vaapi-doc' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-libav' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-base-dbg' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-good-dbg' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-base-doc' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-good-doc' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-dvswitch' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-clutter-3.0' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-vaapi' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-libav-dbg' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-packagekit' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-ffmpeg' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-plugins-ugly' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-doc' for glob 'gstreamer1.0-*'
+Note, selecting 'gstreamer1.0-audiosink' for glob 'gstreamer1.0-*'
+gstreamer1.0-clutter-3.0 is already the newest version (3.0.18-1).
+gstreamer1.0-clutter-3.0 set to manually installed.
+gstreamer1.0-alsa is already the newest version (1.8.1-1ubuntu0.1).
+gstreamer1.0-alsa set to manually installed.
+gstreamer1.0-plugins-base is already the newest version (1.8.1-1ubuntu0.1).
+gstreamer1.0-plugins-base set to manually installed.
+gstreamer1.0-plugins-base-apps is already the newest version (1.8.1-1ubuntu0.1).
+gstreamer1.0-plugins-base-apps set to manually installed.
+gstreamer1.0-plugins-good is already the newest version (1.8.1-1ubuntu0.1).
+gstreamer1.0-plugins-good set to manually installed.
+gstreamer1.0-pulseaudio is already the newest version (1.8.1-1ubuntu0.1).
+gstreamer1.0-pulseaudio set to manually installed.
+gstreamer1.0-tools is already the newest version (1.8.1-1~ubuntu1).
+gstreamer1.0-tools set to manually installed.
+gstreamer1.0-x is already the newest version (1.8.1-1ubuntu0.1).
+gstreamer1.0-x set to manually installed.
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ gstreamer1.0-hybris:i386 : Depends: libmedia1:i386 but it is not going to be installed
+E: Unable to correct problems, you have held broken packages.
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-*[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [C[C[C[C[Csu[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit pushcommit imu.pyy -m "syntax fix, plus i2c bus change to 1"[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get install git[K[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ git commit imu.py -m "syntax fix, plus i2c bus change to 1"[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get install git[K[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ git commit imu.py -m "syntax fix, plus i2c bus change to 1"[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [C[C[C[C[8Ppush
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Psudo suapt-get insttall gstreamer1.0-*[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgst-launch-1.0 u dpsrc port=5000 \
+>     ! gdpdepay \
+>     ! rtph264depay \
+>     ! avdec_h264 \
+>     ! videoconvert \
+>     ! autovideosink sync=false
+WARNING: erroneous pipeline: no element "gdpdepay"
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get install gstreamer1.0-*[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+gstreamer1.0-alsa                      gstreamer1.0-plugins-base
+gstreamer1.0-clutter                   gstreamer1.0-plugins-base-apps
+gstreamer1.0-clutter-3.0               gstreamer1.0-plugins-base-dbg
+gstreamer1.0-crystalhd                 gstreamer1.0-plugins-base-doc
+gstreamer1.0-doc                       gstreamer1.0-plugins-good
+gstreamer1.0-dvswitch                  gstreamer1.0-plugins-good-dbg
+gstreamer1.0-espeak                    gstreamer1.0-plugins-good-doc
+gstreamer1.0-fluendo-mp3               gstreamer1.0-plugins-ugly
+gstreamer1.0-hybris                    gstreamer1.0-plugins-ugly-amr
+gstreamer1.0-libav                     gstreamer1.0-plugins-ugly-dbg
+gstreamer1.0-libav-dbg                 gstreamer1.0-plugins-ugly-doc
+gstreamer1.0-nice                      gstreamer1.0-pocketsphinx
+gstreamer1.0-packagekit                gstreamer1.0-pulseaudio
+gstreamer1.0-plugins-bad               gstreamer1.0-tools
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-vaapi
+gstreamer1.0-plugins-bad-doc           gstreamer1.0-vaapi-doc
+gstreamer1.0-plugins-bad-faad          gstreamer1.0-x
+gstreamer1.0-plugins-bad-videoparsers  
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-p
+gstreamer1.0-packagekit                gstreamer1.0-plugins-good
+gstreamer1.0-plugins-bad               gstreamer1.0-plugins-good-dbg
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-plugins-good-doc
+gstreamer1.0-plugins-bad-doc           gstreamer1.0-plugins-ugly
+gstreamer1.0-plugins-bad-faad          gstreamer1.0-plugins-ugly-amr
+gstreamer1.0-plugins-bad-videoparsers  gstreamer1.0-plugins-ugly-dbg
+gstreamer1.0-plugins-base              gstreamer1.0-plugins-ugly-doc
+gstreamer1.0-plugins-base-apps         gstreamer1.0-pocketsphinx
+gstreamer1.0-plugins-base-dbg          gstreamer1.0-pulseaudio
+gstreamer1.0-plugins-base-doc          
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-p
+gstreamer1.0-packagekit                gstreamer1.0-plugins-good
+gstreamer1.0-plugins-bad               gstreamer1.0-plugins-good-dbg
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-plugins-good-doc
+gstreamer1.0-plugins-bad-doc           gstreamer1.0-plugins-ugly
+gstreamer1.0-plugins-bad-faad          gstreamer1.0-plugins-ugly-amr
+gstreamer1.0-plugins-bad-videoparsers  gstreamer1.0-plugins-ugly-dbg
+gstreamer1.0-plugins-base              gstreamer1.0-plugins-ugly-doc
+gstreamer1.0-plugins-base-apps         gstreamer1.0-pocketsphinx
+gstreamer1.0-plugins-base-dbg          gstreamer1.0-pulseaudio
+gstreamer1.0-plugins-base-doc          
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-bad               gstreamer1.0-plugins-bad-faad
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-plugins-bad-videoparsers
+gstreamer1.0-plugins-bad-doc           
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plugins-bad
+gstreamer1.0-plugins-bad               gstreamer1.0-plugins-bad-faad
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-plugins-bad-videoparsers
+gstreamer1.0-plugins-bad-doc           
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plugins-bad
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  freepats gstreamer1.0-plugins-bad-faad gstreamer1.0-plugins-bad-videoparsers
+  i965-va-driver libaacs0 libass5 libavcodec-ffmpeg56 libavformat-ffmpeg56
+  libavutil-ffmpeg54 libbdplus0 libbluray1 libbs2b0 libchromaprint0
+  libcrystalhd3 libdc1394-22 libdca0 libde265-0 libdvdnav4 libdvdread4
+  libfaad2 libflite1 libfluidsynth1 libgme0 libgsm1
+  libgstreamer-plugins-bad1.0-0 libgtkglext1 libkate1 libmimic0
+  libmjpegutils-2.1-0 libmms0 libmodplug1 libmp3lame0 libmpeg2encpp-2.1-0
+  libmplex2-2.1-0 libofa0 libopenal-data libopenal1 libopencv-calib3d2.4v5
+  libopencv-contrib2.4v5 libopencv-core2.4v5 libopencv-features2d2.4v5
+  libopencv-flann2.4v5 libopencv-highgui2.4v5 libopencv-imgproc2.4v5
+  libopencv-legacy2.4v5 libopencv-ml2.4v5 libopencv-objdetect2.4v5
+  libopencv-video2.4v5 libopenjpeg5 libschroedinger-1.0-0 libshine3
+  libsnappy1v5 libsoundtouch1 libsoxr0 libspandsp2 libsrtp0 libssh-gcrypt-4
+  libswresample-ffmpeg1 libswscale-ffmpeg3 libtbb2 libtwolame0 libva1
+  libvdpau1 libvo-aacenc0 libvo-amrwbenc0 libwildmidi-config libwildmidi1
+  libx264-148 libx265-79 libxvidcore4 libzbar0 libzvbi-common libzvbi0
+  mesa-vdpau-drivers va-driver-all vdpau-driver-all vdpau-va-driver
+Suggested packages:
+  frei0r-plugins libbluray-bdj libchromaprint-tools python-acoustid
+  firmware-crystalhd libdvdcss2 srtp-utils libfglrx-amdxvba1 libvdpau-va-gl1
+  nvidia-vdpau-driver nvidia-legacy-340xx-vdpau-driver
+The following NEW packages will be installed:
+  freepats gstreamer1.0-plugins-bad gstreamer1.0-plugins-bad-faad
+  gstreamer1.0-plugins-bad-videoparsers i965-va-driver libaacs0 libass5
+  libavcodec-ffmpeg56 libavformat-ffmpeg56 libavutil-ffmpeg54 libbdplus0
+  libbluray1 libbs2b0 libchromaprint0 libcrystalhd3 libdc1394-22 libdca0
+  libde265-0 libdvdnav4 libdvdread4 libfaad2 libflite1 libfluidsynth1 libgme0
+  libgsm1 libgstreamer-plugins-bad1.0-0 libgtkglext1 libkate1 libmimic0
+  libmjpegutils-2.1-0 libmms0 libmodplug1 libmp3lame0 libmpeg2encpp-2.1-0
+  libmplex2-2.1-0 libofa0 libopenal-data libopenal1 libopencv-calib3d2.4v5
+  libopencv-contrib2.4v5 libopencv-core2.4v5 libopencv-features2d2.4v5
+  libopencv-flann2.4v5 libopencv-highgui2.4v5 libopencv-imgproc2.4v5
+  libopencv-legacy2.4v5 libopencv-ml2.4v5 libopencv-objdetect2.4v5
+  libopencv-video2.4v5 libopenjpeg5 libschroedinger-1.0-0 libshine3
+  libsnappy1v5 libsoundtouch1 libsoxr0 libspandsp2 libsrtp0 libssh-gcrypt-4
+  libswresample-ffmpeg1 libswscale-ffmpeg3 libtbb2 libtwolame0 libva1
+  libvdpau1 libvo-aacenc0 libvo-amrwbenc0 libwildmidi-config libwildmidi1
+  libx264-148 libx265-79 libxvidcore4 libzbar0 libzvbi-common libzvbi0
+  mesa-vdpau-drivers va-driver-all vdpau-driver-all vdpau-va-driver
+0 upgraded, 78 newly installed, 0 to remove and 32 not upgraded.
+Need to get 59.7 MB of archives.
+After this operation, 143 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libcrystalhd3 amd64 1:0.0~git20110715.fdd2f19-11build1 [46.1 kB]
+0% [1 libcrystalhd3 13.4 kB/46.1 kB 29%]                                        0% [Working]            Get:2 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libfaad2 amd64 2.8.0~cvs20150510-1 [164 kB]
+0% [2 libfaad2 1,085 B/164 kB 1%]                                 1% [Working]            Get:3 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libgsm1 amd64 1.0.13-4 [27.1 kB]
+1% [3 libgsm1 7,426 B/27.1 kB 27%]                                  1% [Working]            Get:4 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libschroedinger-1.0-0 amd64 1.0.11-2.1build1 [293 kB]
+1% [4 libschroedinger-1.0-0 10.1 kB/293 kB 3%]                                              2% [Working]            Get:5 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libwildmidi-config all 0.3.8-2 [7,378 B]
+2% [5 libwildmidi-config 7,378 B/7,378 B 100%]                                              2% [Working]            Get:6 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libwildmidi1 amd64 0.3.8-2 [38.3 kB]
+2% [6 libwildmidi1 5,588 B/38.3 kB 15%]                                       2% [Working]            Get:7 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libdca0 amd64 0.0.5-7build1 [93.7 kB]
+2% [7 libdca0 1,174 B/93.7 kB 1%]                                 3% [Working]            Get:8 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopenal-data all 1:1.16.0-3 [101 kB]
+3% [8 libopenal-data 7,073 B/101 kB 7%]                                       3% [Working]            Get:9 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopenal1 amd64 1:1.16.0-3 [164 kB]
+3% [9 libopenal1 12.9 kB/164 kB 8%]                                   4% [Working]            Get:10 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libvo-aacenc0 amd64 0.1.3-1 [71.0 kB]
+4% [10 libvo-aacenc0 44.9 kB/71.0 kB 63%]                                         4% [Working]            Get:11 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libvo-amrwbenc0 amd64 0.1.3-1 [66.4 kB]
+4% [11 libvo-amrwbenc0 15.1 kB/66.4 kB 23%]                                           4% [Working]            Get:12 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 freepats all 20060219-1 [29.0 MB]
+4% [12 freepats 25.0 kB/29.0 MB 0%]                                   5% [12 freepats 917 kB/29.0 MB 3%]7% [12 freepats 2,045 kB/29.0 MB 7%]8% [12 freepats 3,139 kB/29.0 MB 11%]10% [12 freepats 4,290 kB/29.0 MB 15%]12% [12 freepats 5,512 kB/29.0 MB 19%]14% [12 freepats 7,327 kB/29.0 MB 25%]16% [12 freepats 8,758 kB/29.0 MB 30%]                                      19% [12 freepats 10.9 MB/29.0 MB 38%]21% [12 freepats 12.8 MB/29.0 MB 44%]24% [12 freepats 14.8 MB/29.0 MB 51%]27% [12 freepats 17.0 MB/29.0 MB 59%]30% [12 freepats 19.2 MB/29.0 MB 66%]                            3,155 kB/s 12s33% [12 freepats 21.5 MB/29.0 MB 74%]                            3,155 kB/s 11s35% [12 freepats 23.2 MB/29.0 MB 80%]                            3,155 kB/s 11s37% [12 freepats 24.5 MB/29.0 MB 84%]                            3,155 kB/s 10s40% [12 freepats 26.5 MB/29.0 MB 91%]                            3,155 kB/s 10s41% [12 freepats 27.6 MB/29.0 MB 95%]                             3,155 kB/s 9s43% [Working]                                                     3,155 kB/s 9s                                                                               Get:13 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libaacs0 amd64 0.8.1-1 [47.4 kB]
+43% [13 libaacs0 27.4 kB/47.4 kB 58%]                             3,155 kB/s 9s44% [Working]                                                     3,155 kB/s 9s                                                                               Get:14 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libavutil-ffmpeg54 amd64 7:2.8.6-1ubuntu2 [166 kB]
+44% [14 libavutil-ffmpeg54 1,547 B/166 kB 1%]                     3,155 kB/s 9s44% [Working]                                                     3,155 kB/s 9s                                                                               Get:15 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmp3lame0 amd64 3.99.5+repack1-9build1 [127 kB]
+44% [15 libmp3lame0 9,394 B/127 kB 7%]                            3,155 kB/s 9s45% [Working]                                                     3,155 kB/s 9s                                                                               Get:16 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopenjpeg5 amd64 1:1.5.2-3.1 [104 kB]
+45% [16 libopenjpeg5 19.2 kB/104 kB 18%]                          3,155 kB/s 9s45% [Working]                                                     3,155 kB/s 9s                                                                               Get:17 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libshine3 amd64 3.1.0-4 [25.5 kB]
+45% [17 libshine3 934 B/25.5 kB 4%]                               3,155 kB/s 9s45% [Waiting for headers]                                         3,155 kB/s 9s                                                                               Get:18 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libsnappy1v5 amd64 1.1.3-2 [16.0 kB]
+45% [18 libsnappy1v5 9,353 B/16.0 kB 58%]                         3,155 kB/s 9s46% [Working]                                                     3,155 kB/s 9s                                                                               Get:19 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libsoxr0 amd64 0.1.2-1 [70.2 kB]
+46% [19 libsoxr0 1,287 B/70.2 kB 2%]                              3,155 kB/s 9s46% [Working]                                                     3,155 kB/s 9s                                                                               Get:20 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libswresample-ffmpeg1 amd64 7:2.8.6-1ubuntu2 [51.1 kB]
+46% [20 libswresample-ffmpeg1 530 B/51.1 kB 1%]                   3,155 kB/s 9s46% [Working]                                                     3,155 kB/s 9s                                                                               Get:21 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libtwolame0 amd64 0.3.13-1.2 [49.2 kB]
+46% [21 libtwolame0 16.2 kB/49.2 kB 33%]                          3,155 kB/s 9s47% [Working]                                                     3,155 kB/s 9s                                                                               Get:22 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libva1 amd64 1.7.0-1 [45.4 kB]
+47% [22 libva1 4,934 B/45.4 kB 11%]                               3,155 kB/s 9s47% [Working]                                                     3,155 kB/s 9s                                                                               Get:23 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libx264-148 amd64 2:0.148.2643+git5c65704-1 [606 kB]
+47% [23 libx264-148 8,457 B/606 kB 1%]                            3,155 kB/s 9s48% [Waiting for headers]                                         3,155 kB/s 8s                                                                               Get:24 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libx265-79 amd64 1.9-3 [965 kB]
+48% [24 libx265-79 22.1 kB/965 kB 2%]                             3,155 kB/s 8s49% [Working]                                                     3,155 kB/s 8s                                                                               Get:25 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libxvidcore4 amd64 2:1.3.4-1 [206 kB]
+49% [25 libxvidcore4 17.5 kB/206 kB 8%]                           3,155 kB/s 8s50% [Working]                                                     3,155 kB/s 8s                                                                               Get:26 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libzvbi-common all 0.2.35-10 [32.5 kB]
+50% [26 libzvbi-common 1,600 B/32.5 kB 5%]                        3,155 kB/s 8s50% [Waiting for headers]                                         3,155 kB/s 8s                                                                               Get:27 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libzvbi0 amd64 0.2.35-10 [235 kB]
+50% [27 libzvbi0 267 B/235 kB 0%]                                 3,155 kB/s 8s51% [Working]                                                     3,155 kB/s 8s                                                                               Get:28 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libavcodec-ffmpeg56 amd64 7:2.8.6-1ubuntu2 [4,080 kB]
+51% [28 libavcodec-ffmpeg56 23.7 kB/4,080 kB 1%]                  3,155 kB/s 8s53% [28 libavcodec-ffmpeg56 1,937 kB/4,080 kB 47%]                3,155 kB/s 7s57% [Working]                                                     3,155 kB/s 7s                                                                               Get:29 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libbluray1 amd64 1:0.9.2-2 [127 kB]
+57% [29 libbluray1 14.4 kB/127 kB 11%]                            3,155 kB/s 7s57% [Working]                                                     3,155 kB/s 7s                                                                               Get:30 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libgme0 amd64 0.6.0-3 [122 kB]
+57% [30 libgme0 29.6 kB/122 kB 24%]                               3,155 kB/s 7s57% [Working]                                                     3,155 kB/s 7s                                                                               Get:31 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmodplug1 amd64 1:0.8.8.5-2 [153 kB]
+57% [31 libmodplug1 2,059 B/153 kB 1%]                            3,155 kB/s 7s58% [Working]                                                     3,155 kB/s 7s                                                                               Get:32 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libssh-gcrypt-4 amd64 0.6.3-4.3 [119 kB]
+58% [32 libssh-gcrypt-4 2,192 B/119 kB 2%]                        3,155 kB/s 7s58% [Working]                                                     3,155 kB/s 7s                                                                               Get:33 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libavformat-ffmpeg56 amd64 7:2.8.6-1ubuntu2 [805 kB]
+58% [33 libavformat-ffmpeg56 8,849 B/805 kB 1%]                   3,155 kB/s 7s60% [Working]                                                     3,155 kB/s 6s                                                                               Get:34 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libbdplus0 amd64 0.1.2-1 [47.1 kB]
+60% [34 libbdplus0 2,388 B/47.1 kB 5%]                            3,155 kB/s 6s60% [Working]                                                     3,155 kB/s 6s                                                                               Get:35 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libde265-0 amd64 1.0.2-2 [234 kB]
+60% [35 libde265-0 27.5 kB/234 kB 12%]                            3,155 kB/s 6s61% [Working]                                                     3,155 kB/s 6s                                                                               Get:36 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libdvdread4 amd64 5.0.3-1 [49.6 kB]
+61% [36 libdvdread4 8,232 B/49.6 kB 17%]                          3,155 kB/s 6s61% [Working]                                                     3,155 kB/s 6s                                                                               Get:37 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libdvdnav4 amd64 5.0.3-1 [37.3 kB]
+61% [37 libdvdnav4 773 B/37.3 kB 2%]                              3,155 kB/s 6s61% [Working]                                                     3,155 kB/s 6s                                                                               Get:38 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libfluidsynth1 amd64 1.1.6-3 [130 kB]
+61% [38 libfluidsynth1 26.1 kB/130 kB 20%]                        3,155 kB/s 6s62% [Working]                                                     3,155 kB/s 6s                                                                               Get:39 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libgtkglext1 amd64 1.2.0-3.2fakesync1ubuntu1 [76.8 kB]
+62% [39 libgtkglext1 25.9 kB/76.8 kB 34%]                         3,155 kB/s 6s62% [Working]                                                     3,155 kB/s 6s                                                                               Get:40 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libkate1 amd64 0.4.1-7 [38.1 kB]
+62% [40 libkate1 23.6 kB/38.1 kB 62%]                             3,155 kB/s 6s62% [Working]                                                     3,155 kB/s 6s                                                                               Get:41 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmimic0 amd64 1.0.4-2.3 [15.0 kB]
+62% [41 libmimic0 2,026 B/15.0 kB 14%]                            3,155 kB/s 6s63% [Working]                                                     3,155 kB/s 6s                                                                               Get:42 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmjpegutils-2.1-0 amd64 1:2.1.0+debian-4 [24.6 kB]
+63% [42 libmjpegutils-2.1-0 24.6 kB/24.6 kB 100%]                 3,155 kB/s 6s63% [Working]                                                     3,155 kB/s 6s                                                                               Get:43 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmms0 amd64 0.6.4-1 [27.4 kB]
+63% [43 libmms0 4,340 B/27.4 kB 16%]                              3,155 kB/s 6s63% [Working]                                                     3,155 kB/s 6s                                                                               Get:44 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmpeg2encpp-2.1-0 amd64 1:2.1.0+debian-4 [70.5 kB]
+63% [44 libmpeg2encpp-2.1-0 46.4 kB/70.5 kB 66%]                  3,155 kB/s 6s63% [Working]                                                     3,155 kB/s 6s                                                                               Get:45 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmplex2-2.1-0 amd64 1:2.1.0+debian-4 [44.2 kB]
+63% [45 libmplex2-2.1-0 5,777 B/44.2 kB 13%]                      3,155 kB/s 6s64% [Working]                                                     3,155 kB/s 6s                                                                               Get:46 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libofa0 amd64 0.9.3-10ubuntu1 [50.3 kB]
+64% [46 libofa0 47.5 kB/50.3 kB 94%]                              3,155 kB/s 6s64% [Working]                                                     3,155 kB/s 6s                                                                               Get:47 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libtbb2 amd64 4.4~20151115-0ubuntu3 [111 kB]
+64% [47 libtbb2 13.8 kB/111 kB 12%]                               3,155 kB/s 6s65% [Working]                                                     3,155 kB/s 6s                                                                               Get:48 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-core2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [675 kB]
+65% [48 libopencv-core2.4v5 732 B/675 kB 0%]                      3,155 kB/s 6s66% [Working]                                                     3,155 kB/s 6s                                                                               Get:49 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-flann2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [107 kB]
+66% [49 libopencv-flann2.4v5 14.1 kB/107 kB 13%]                  3,155 kB/s 6s66% [Working]                                                     3,155 kB/s 6s                                                                               Get:50 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-imgproc2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [632 kB]
+66% [50 libopencv-imgproc2.4v5 23.8 kB/632 kB 4%]                 3,155 kB/s 6s67% [Working]                                                     3,155 kB/s 6s                                                                               Get:51 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-features2d2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [215 kB]
+67% [51 libopencv-features2d2.4v5 14.2 kB/215 kB 7%]              3,155 kB/s 6s68% [Working]                                                     3,155 kB/s 5s                                                                               Get:52 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-calib3d2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [218 kB]
+68% [52 libopencv-calib3d2.4v5 30.4 kB/218 kB 14%]                3,155 kB/s 5s68% [Working]                                                     3,155 kB/s 5s                                                                               Get:53 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libdc1394-22 amd64 2.2.4-1 [78.8 kB]
+68% [53 libdc1394-22 13.2 kB/78.8 kB 17%]                         3,155 kB/s 5s69% [Working]                                                     3,155 kB/s 5s                                                                               Get:54 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libswscale-ffmpeg3 amd64 7:2.8.6-1ubuntu2 [145 kB]
+69% [54 libswscale-ffmpeg3 13.5 kB/145 kB 9%]                     3,155 kB/s 5s69% [Working]                                                     3,155 kB/s 5s                                                                               Get:55 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-highgui2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [101 kB]
+69% [55 libopencv-highgui2.4v5 58.1 kB/101 kB 57%]                3,155 kB/s 5s69% [Working]                                                     3,155 kB/s 5s                                                                               Get:56 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-ml2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [190 kB]
+70% [56 libopencv-ml2.4v5 22.1 kB/190 kB 12%]                     3,155 kB/s 5s70% [Working]                                                     3,155 kB/s 5s                                                                               Get:57 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-objdetect2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [191 kB]
+70% [57 libopencv-objdetect2.4v5 20.4 kB/191 kB 11%]              3,155 kB/s 5s71% [Working]                                                     3,155 kB/s 5s                                                                               Get:58 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-video2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [119 kB]
+71% [58 libopencv-video2.4v5 7,399 B/119 kB 6%]                   3,155 kB/s 5s71% [Working]                                                     3,155 kB/s 5s                                                                               Get:59 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-contrib2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [300 kB]
+71% [59 libopencv-contrib2.4v5 23.2 kB/300 kB 8%]                 3,155 kB/s 5s72% [Working]                                                     3,629 kB/s 4s                                                                               Get:60 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencv-legacy2.4v5 amd64 2.4.9.1+dfsg-1.5ubuntu1 [406 kB]
+72% [60 libopencv-legacy2.4v5 7,174 B/406 kB 2%]                  3,629 kB/s 4s72% [Working]                                                     3,629 kB/s 4s                                                                               Get:61 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libsoundtouch1 amd64 1.9.2-2 [39.8 kB]
+72% [61 libsoundtouch1 9,766 B/39.8 kB 25%]                       3,629 kB/s 4s73% [Working]                                                     3,629 kB/s 4s                                                                               Get:62 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libspandsp2 amd64 0.0.6-2.1 [273 kB]
+73% [62 libspandsp2 5,279 B/273 kB 2%]                            3,629 kB/s 4s73% [Working]                                                     3,629 kB/s 4s                                                                               Get:63 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libsrtp0 amd64 1.4.5~20130609~dfsg-1.1ubuntu1 [55.9 kB]
+73% [63 libsrtp0 7,012 B/55.9 kB 13%]                             3,629 kB/s 4s74% [Working]                                                     3,629 kB/s 4s                                                                               Get:64 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libvdpau1 amd64 1.1.1-3ubuntu1 [25.5 kB]
+74% [64 libvdpau1 12.4 kB/25.5 kB 48%]                            3,629 kB/s 4s74% [Working]                                                     3,629 kB/s 4s                                                                               Get:65 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libzbar0 amd64 0.10+doc-10ubuntu1 [75.6 kB]
+74% [65 libzbar0 26.2 kB/75.6 kB 35%]                             3,629 kB/s 4s74% [Working]                                                     3,629 kB/s 4s                                                                               Get:66 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 mesa-vdpau-drivers amd64 11.2.0-1ubuntu2 [1,518 kB]
+74% [66 mesa-vdpau-drivers 20.1 kB/1,518 kB 1%]                   3,629 kB/s 4s77% [Waiting for headers]                                         3,629 kB/s 4s                                                                               Get:67 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 i965-va-driver amd64 1.7.0-1 [272 kB]
+77% [67 i965-va-driver 15.3 kB/272 kB 6%]                         3,629 kB/s 4s77% [Working]                                                     3,629 kB/s 4s                                                                               Get:68 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 vdpau-va-driver amd64 0.7.4-5 [41.1 kB]
+77% [68 vdpau-va-driver 2,938 B/41.1 kB 7%]                       3,629 kB/s 4s78% [Waiting for headers]                                         3,629 kB/s 4s                                                                               Get:69 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 va-driver-all amd64 1.7.0-1 [4,620 B]
+78% [Waiting for headers]                                         3,629 kB/s 4s                                                                               Get:70 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 vdpau-driver-all amd64 1.1.1-3ubuntu1 [4,674 B]
+78% [70 vdpau-driver-all 4,574 B/4,674 B 98%]                     3,629 kB/s 4s78% [Working]                                                     3,629 kB/s 4s                                                                               Get:71 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libass5 amd64 0.13.1-1 [82.6 kB]
+78% [71 libass5 2,354 B/82.6 kB 3%]                               3,629 kB/s 4s78% [Working]                                                     3,629 kB/s 4s                                                                               Get:72 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libbs2b0 amd64 3.1.0+dfsg-2.2 [10.5 kB]
+78% [72 libbs2b0 2,913 B/10.5 kB 28%]                             3,629 kB/s 4s79% [Waiting for headers]                                         3,629 kB/s 4s                                                                               Get:73 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libchromaprint0 amd64 1.3-1 [33.0 kB]
+79% [73 libchromaprint0 8,554 B/33.0 kB 26%]                      3,629 kB/s 4s79% [Working]                                                     3,629 kB/s 4s                                                                               Get:74 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libflite1 amd64 2.0.0-release-1 [12.8 MB]
+79% [74 libflite1 2,582 B/12.8 MB 0%]                             3,629 kB/s 4s83% [74 libflite1 2,734 kB/12.8 MB 21%]                           3,629 kB/s 3s86% [74 libflite1 5,119 kB/12.8 MB 40%]                           3,629 kB/s 2s89% [74 libflite1 7,224 kB/12.8 MB 56%]                           3,629 kB/s 2s92% [74 libflite1 9,952 kB/12.8 MB 77%]                           3,629 kB/s 1s96% [74 libflite1 12.4 MB/12.8 MB 97%]                            3,629 kB/s 0s96% [Waiting for headers]                                         3,629 kB/s 0s                                                                               Get:75 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 libgstreamer-plugins-bad1.0-0 amd64 1.8.1-1ubuntu0.1 [396 kB]
+96% [75 libgstreamer-plugins-bad1.0-0 2,639 B/396 kB 1%]          3,629 kB/s 0s97% [Working]                                                     3,629 kB/s 0s                                                                               Get:76 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 gstreamer1.0-plugins-bad-videoparsers amd64 1.8.1-1ubuntu0.1 [84.9 kB]
+                                                                               97% [76 gstreamer1.0-plugins-bad-videoparsers 32.1 kB/84.9 kB 38%]98% [Working]                                                     3,629 kB/s 0s                                                                               Get:77 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 gstreamer1.0-plugins-bad-faad amd64 1.8.1-1ubuntu0.1 [21.4 kB]
+98% [77 gstreamer1.0-plugins-bad-faad 12.5 kB/21.4 kB 58%]        3,629 kB/s 0s98% [Working]                                                     3,629 kB/s 0s                                                                               Get:78 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 gstreamer1.0-plugins-bad amd64 1.8.1-1ubuntu0.1 [1,364 kB]
+98% [78 gstreamer1.0-plugins-bad 29.1 kB/1,364 kB 2%]             3,629 kB/s 0s100% [Working]                                                    3,629 kB/s 0s                                                                               Fetched 59.7 MB in 16s (3,699 kB/s)
+Extracting templates from packages: 38%Extracting templates from packages: 76%Extracting templates from packages: 100%
+Selecting previously unselected package libcrystalhd3:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 208484 files and directories currently installed.)
+Preparing to unpack .../libcrystalhd3_1%3a0.0~git20110715.fdd2f19-11build1_amd64.deb ...
+Unpacking libcrystalhd3:amd64 (1:0.0~git20110715.fdd2f19-11build1) ...
+Selecting previously unselected package libfaad2:amd64.
+Preparing to unpack .../libfaad2_2.8.0~cvs20150510-1_amd64.deb ...
+Unpacking libfaad2:amd64 (2.8.0~cvs20150510-1) ...
+Selecting previously unselected package libgsm1:amd64.
+Preparing to unpack .../libgsm1_1.0.13-4_amd64.deb ...
+Unpacking libgsm1:amd64 (1.0.13-4) ...
+Selecting previously unselected package libschroedinger-1.0-0:amd64.
+Preparing to unpack .../libschroedinger-1.0-0_1.0.11-2.1build1_amd64.deb ...
+Unpacking libschroedinger-1.0-0:amd64 (1.0.11-2.1build1) ...
+Selecting previously unselected package libwildmidi-config.
+Preparing to unpack .../libwildmidi-config_0.3.8-2_all.deb ...
+Unpacking libwildmidi-config (0.3.8-2) ...
+Selecting previously unselected package libwildmidi1:amd64.
+Preparing to unpack .../libwildmidi1_0.3.8-2_amd64.deb ...
+Unpacking libwildmidi1:amd64 (0.3.8-2) ...
+Selecting previously unselected package libdca0:amd64.
+Preparing to unpack .../libdca0_0.0.5-7build1_amd64.deb ...
+Unpacking libdca0:amd64 (0.0.5-7build1) ...
+Selecting previously unselected package libopenal-data.
+Preparing to unpack .../libopenal-data_1%3a1.16.0-3_all.deb ...
+Unpacking libopenal-data (1:1.16.0-3) ...
+Selecting previously unselected package libopenal1:amd64.
+Preparing to unpack .../libopenal1_1%3a1.16.0-3_amd64.deb ...
+Unpacking libopenal1:amd64 (1:1.16.0-3) ...
+Selecting previously unselected package libvo-aacenc0:amd64.
+Preparing to unpack .../libvo-aacenc0_0.1.3-1_amd64.deb ...
+Unpacking libvo-aacenc0:amd64 (0.1.3-1) ...
+Selecting previously unselected package libvo-amrwbenc0:amd64.
+Preparing to unpack .../libvo-amrwbenc0_0.1.3-1_amd64.deb ...
+Unpacking libvo-amrwbenc0:amd64 (0.1.3-1) ...
+Selecting previously unselected package freepats.
+Preparing to unpack .../freepats_20060219-1_all.deb ...
+Unpacking freepats (20060219-1) ...
+Selecting previously unselected package libaacs0:amd64.
+Preparing to unpack .../libaacs0_0.8.1-1_amd64.deb ...
+Unpacking libaacs0:amd64 (0.8.1-1) ...
+Selecting previously unselected package libavutil-ffmpeg54:amd64.
+Preparing to unpack .../libavutil-ffmpeg54_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libavutil-ffmpeg54:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package libmp3lame0:amd64.
+Preparing to unpack .../libmp3lame0_3.99.5+repack1-9build1_amd64.deb ...
+Unpacking libmp3lame0:amd64 (3.99.5+repack1-9build1) ...
+Selecting previously unselected package libopenjpeg5:amd64.
+Preparing to unpack .../libopenjpeg5_1%3a1.5.2-3.1_amd64.deb ...
+Unpacking libopenjpeg5:amd64 (1:1.5.2-3.1) ...
+Selecting previously unselected package libshine3:amd64.
+Preparing to unpack .../libshine3_3.1.0-4_amd64.deb ...
+Unpacking libshine3:amd64 (3.1.0-4) ...
+Selecting previously unselected package libsnappy1v5:amd64.
+Preparing to unpack .../libsnappy1v5_1.1.3-2_amd64.deb ...
+Unpacking libsnappy1v5:amd64 (1.1.3-2) ...
+Selecting previously unselected package libsoxr0:amd64.
+Preparing to unpack .../libsoxr0_0.1.2-1_amd64.deb ...
+Unpacking libsoxr0:amd64 (0.1.2-1) ...
+Selecting previously unselected package libswresample-ffmpeg1:amd64.
+Preparing to unpack .../libswresample-ffmpeg1_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libswresample-ffmpeg1:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package libtwolame0:amd64.
+Preparing to unpack .../libtwolame0_0.3.13-1.2_amd64.deb ...
+Unpacking libtwolame0:amd64 (0.3.13-1.2) ...
+Selecting previously unselected package libva1:amd64.
+Preparing to unpack .../libva1_1.7.0-1_amd64.deb ...
+Unpacking libva1:amd64 (1.7.0-1) ...
+Selecting previously unselected package libx264-148:amd64.
+Preparing to unpack .../libx264-148_2%3a0.148.2643+git5c65704-1_amd64.deb ...
+Unpacking libx264-148:amd64 (2:0.148.2643+git5c65704-1) ...
+Selecting previously unselected package libx265-79:amd64.
+Preparing to unpack .../libx265-79_1.9-3_amd64.deb ...
+Unpacking libx265-79:amd64 (1.9-3) ...
+Selecting previously unselected package libxvidcore4:amd64.
+Preparing to unpack .../libxvidcore4_2%3a1.3.4-1_amd64.deb ...
+Unpacking libxvidcore4:amd64 (2:1.3.4-1) ...
+Selecting previously unselected package libzvbi-common.
+Preparing to unpack .../libzvbi-common_0.2.35-10_all.deb ...
+Unpacking libzvbi-common (0.2.35-10) ...
+Selecting previously unselected package libzvbi0:amd64.
+Preparing to unpack .../libzvbi0_0.2.35-10_amd64.deb ...
+Unpacking libzvbi0:amd64 (0.2.35-10) ...
+Selecting previously unselected package libavcodec-ffmpeg56:amd64.
+Preparing to unpack .../libavcodec-ffmpeg56_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libavcodec-ffmpeg56:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package libbluray1:amd64.
+Preparing to unpack .../libbluray1_1%3a0.9.2-2_amd64.deb ...
+Unpacking libbluray1:amd64 (1:0.9.2-2) ...
+Selecting previously unselected package libgme0:amd64.
+Preparing to unpack .../libgme0_0.6.0-3_amd64.deb ...
+Unpacking libgme0:amd64 (0.6.0-3) ...
+Selecting previously unselected package libmodplug1:amd64.
+Preparing to unpack .../libmodplug1_1%3a0.8.8.5-2_amd64.deb ...
+Unpacking libmodplug1:amd64 (1:0.8.8.5-2) ...
+Selecting previously unselected package libssh-gcrypt-4:amd64.
+Preparing to unpack .../libssh-gcrypt-4_0.6.3-4.3_amd64.deb ...
+Unpacking libssh-gcrypt-4:amd64 (0.6.3-4.3) ...
+Selecting previously unselected package libavformat-ffmpeg56:amd64.
+Preparing to unpack .../libavformat-ffmpeg56_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libavformat-ffmpeg56:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package libbdplus0:amd64.
+Preparing to unpack .../libbdplus0_0.1.2-1_amd64.deb ...
+Unpacking libbdplus0:amd64 (0.1.2-1) ...
+Selecting previously unselected package libde265-0:amd64.
+Preparing to unpack .../libde265-0_1.0.2-2_amd64.deb ...
+Unpacking libde265-0:amd64 (1.0.2-2) ...
+Selecting previously unselected package libdvdread4:amd64.
+Preparing to unpack .../libdvdread4_5.0.3-1_amd64.deb ...
+Unpacking libdvdread4:amd64 (5.0.3-1) ...
+Selecting previously unselected package libdvdnav4:amd64.
+Preparing to unpack .../libdvdnav4_5.0.3-1_amd64.deb ...
+Unpacking libdvdnav4:amd64 (5.0.3-1) ...
+Selecting previously unselected package libfluidsynth1:amd64.
+Preparing to unpack .../libfluidsynth1_1.1.6-3_amd64.deb ...
+Unpacking libfluidsynth1:amd64 (1.1.6-3) ...
+Selecting previously unselected package libgtkglext1:amd64.
+Preparing to unpack .../libgtkglext1_1.2.0-3.2fakesync1ubuntu1_amd64.deb ...
+Unpacking libgtkglext1:amd64 (1.2.0-3.2fakesync1ubuntu1) ...
+Selecting previously unselected package libkate1:amd64.
+Preparing to unpack .../libkate1_0.4.1-7_amd64.deb ...
+Unpacking libkate1:amd64 (0.4.1-7) ...
+Selecting previously unselected package libmimic0:amd64.
+Preparing to unpack .../libmimic0_1.0.4-2.3_amd64.deb ...
+Unpacking libmimic0:amd64 (1.0.4-2.3) ...
+Selecting previously unselected package libmjpegutils-2.1-0.
+Preparing to unpack .../libmjpegutils-2.1-0_1%3a2.1.0+debian-4_amd64.deb ...
+Unpacking libmjpegutils-2.1-0 (1:2.1.0+debian-4) ...
+Selecting previously unselected package libmms0:amd64.
+Preparing to unpack .../libmms0_0.6.4-1_amd64.deb ...
+Unpacking libmms0:amd64 (0.6.4-1) ...
+Selecting previously unselected package libmpeg2encpp-2.1-0.
+Preparing to unpack .../libmpeg2encpp-2.1-0_1%3a2.1.0+debian-4_amd64.deb ...
+Unpacking libmpeg2encpp-2.1-0 (1:2.1.0+debian-4) ...
+Selecting previously unselected package libmplex2-2.1-0.
+Preparing to unpack .../libmplex2-2.1-0_1%3a2.1.0+debian-4_amd64.deb ...
+Unpacking libmplex2-2.1-0 (1:2.1.0+debian-4) ...
+Selecting previously unselected package libofa0:amd64.
+Preparing to unpack .../libofa0_0.9.3-10ubuntu1_amd64.deb ...
+Unpacking libofa0:amd64 (0.9.3-10ubuntu1) ...
+Selecting previously unselected package libtbb2:amd64.
+Preparing to unpack .../libtbb2_4.4~20151115-0ubuntu3_amd64.deb ...
+Unpacking libtbb2:amd64 (4.4~20151115-0ubuntu3) ...
+Selecting previously unselected package libopencv-core2.4v5:amd64.
+Preparing to unpack .../libopencv-core2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-core2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-flann2.4v5:amd64.
+Preparing to unpack .../libopencv-flann2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-flann2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-imgproc2.4v5:amd64.
+Preparing to unpack .../libopencv-imgproc2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-imgproc2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-features2d2.4v5:amd64.
+Preparing to unpack .../libopencv-features2d2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-features2d2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-calib3d2.4v5:amd64.
+Preparing to unpack .../libopencv-calib3d2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-calib3d2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libdc1394-22:amd64.
+Preparing to unpack .../libdc1394-22_2.2.4-1_amd64.deb ...
+Unpacking libdc1394-22:amd64 (2.2.4-1) ...
+Selecting previously unselected package libswscale-ffmpeg3:amd64.
+Preparing to unpack .../libswscale-ffmpeg3_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libswscale-ffmpeg3:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package libopencv-highgui2.4v5:amd64.
+Preparing to unpack .../libopencv-highgui2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-highgui2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-ml2.4v5:amd64.
+Preparing to unpack .../libopencv-ml2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-ml2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-objdetect2.4v5:amd64.
+Preparing to unpack .../libopencv-objdetect2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-objdetect2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-video2.4v5:amd64.
+Preparing to unpack .../libopencv-video2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-video2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-contrib2.4v5:amd64.
+Preparing to unpack .../libopencv-contrib2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-contrib2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libopencv-legacy2.4v5:amd64.
+Preparing to unpack .../libopencv-legacy2.4v5_2.4.9.1+dfsg-1.5ubuntu1_amd64.deb ...
+Unpacking libopencv-legacy2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Selecting previously unselected package libsoundtouch1:amd64.
+Preparing to unpack .../libsoundtouch1_1.9.2-2_amd64.deb ...
+Unpacking libsoundtouch1:amd64 (1.9.2-2) ...
+Selecting previously unselected package libspandsp2:amd64.
+Preparing to unpack .../libspandsp2_0.0.6-2.1_amd64.deb ...
+Unpacking libspandsp2:amd64 (0.0.6-2.1) ...
+Selecting previously unselected package libsrtp0.
+Preparing to unpack .../libsrtp0_1.4.5~20130609~dfsg-1.1ubuntu1_amd64.deb ...
+Unpacking libsrtp0 (1.4.5~20130609~dfsg-1.1ubuntu1) ...
+Selecting previously unselected package libvdpau1:amd64.
+Preparing to unpack .../libvdpau1_1.1.1-3ubuntu1_amd64.deb ...
+Unpacking libvdpau1:amd64 (1.1.1-3ubuntu1) ...
+Selecting previously unselected package libzbar0:amd64.
+Preparing to unpack .../libzbar0_0.10+doc-10ubuntu1_amd64.deb ...
+Unpacking libzbar0:amd64 (0.10+doc-10ubuntu1) ...
+Selecting previously unselected package mesa-vdpau-drivers:amd64.
+Preparing to unpack .../mesa-vdpau-drivers_11.2.0-1ubuntu2_amd64.deb ...
+Unpacking mesa-vdpau-drivers:amd64 (11.2.0-1ubuntu2) ...
+Selecting previously unselected package i965-va-driver:amd64.
+Preparing to unpack .../i965-va-driver_1.7.0-1_amd64.deb ...
+Unpacking i965-va-driver:amd64 (1.7.0-1) ...
+Selecting previously unselected package vdpau-va-driver:amd64.
+Preparing to unpack .../vdpau-va-driver_0.7.4-5_amd64.deb ...
+Unpacking vdpau-va-driver:amd64 (0.7.4-5) ...
+Selecting previously unselected package va-driver-all:amd64.
+Preparing to unpack .../va-driver-all_1.7.0-1_amd64.deb ...
+Unpacking va-driver-all:amd64 (1.7.0-1) ...
+Selecting previously unselected package vdpau-driver-all:amd64.
+Preparing to unpack .../vdpau-driver-all_1.1.1-3ubuntu1_amd64.deb ...
+Unpacking vdpau-driver-all:amd64 (1.1.1-3ubuntu1) ...
+Selecting previously unselected package libass5:amd64.
+Preparing to unpack .../libass5_0.13.1-1_amd64.deb ...
+Unpacking libass5:amd64 (0.13.1-1) ...
+Selecting previously unselected package libbs2b0:amd64.
+Preparing to unpack .../libbs2b0_3.1.0+dfsg-2.2_amd64.deb ...
+Unpacking libbs2b0:amd64 (3.1.0+dfsg-2.2) ...
+Selecting previously unselected package libchromaprint0:amd64.
+Preparing to unpack .../libchromaprint0_1.3-1_amd64.deb ...
+Unpacking libchromaprint0:amd64 (1.3-1) ...
+Selecting previously unselected package libflite1:amd64.
+Preparing to unpack .../libflite1_2.0.0-release-1_amd64.deb ...
+Unpacking libflite1:amd64 (2.0.0-release-1) ...
+Selecting previously unselected package libgstreamer-plugins-bad1.0-0:amd64.
+Preparing to unpack .../libgstreamer-plugins-bad1.0-0_1.8.1-1ubuntu0.1_amd64.deb ...
+Unpacking libgstreamer-plugins-bad1.0-0:amd64 (1.8.1-1ubuntu0.1) ...
+Selecting previously unselected package gstreamer1.0-plugins-bad-videoparsers:amd64.
+Preparing to unpack .../gstreamer1.0-plugins-bad-videoparsers_1.8.1-1ubuntu0.1_amd64.deb ...
+Unpacking gstreamer1.0-plugins-bad-videoparsers:amd64 (1.8.1-1ubuntu0.1) ...
+Selecting previously unselected package gstreamer1.0-plugins-bad-faad:amd64.
+Preparing to unpack .../gstreamer1.0-plugins-bad-faad_1.8.1-1ubuntu0.1_amd64.deb ...
+Unpacking gstreamer1.0-plugins-bad-faad:amd64 (1.8.1-1ubuntu0.1) ...
+Selecting previously unselected package gstreamer1.0-plugins-bad:amd64.
+Preparing to unpack .../gstreamer1.0-plugins-bad_1.8.1-1ubuntu0.1_amd64.deb ...
+Unpacking gstreamer1.0-plugins-bad:amd64 (1.8.1-1ubuntu0.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+Processing triggers for doc-base (0.10.7) ...
+Processing 1 added doc-base file...
+Setting up libcrystalhd3:amd64 (1:0.0~git20110715.fdd2f19-11build1) ...
+Setting up libfaad2:amd64 (2.8.0~cvs20150510-1) ...
+Setting up libgsm1:amd64 (1.0.13-4) ...
+Setting up libschroedinger-1.0-0:amd64 (1.0.11-2.1build1) ...
+Setting up libwildmidi-config (0.3.8-2) ...
+Setting up libwildmidi1:amd64 (0.3.8-2) ...
+Setting up libdca0:amd64 (0.0.5-7build1) ...
+Setting up libopenal-data (1:1.16.0-3) ...
+Setting up libopenal1:amd64 (1:1.16.0-3) ...
+Setting up libvo-aacenc0:amd64 (0.1.3-1) ...
+Setting up libvo-amrwbenc0:amd64 (0.1.3-1) ...
+Setting up freepats (20060219-1) ...
+Setting up libaacs0:amd64 (0.8.1-1) ...
+Setting up libavutil-ffmpeg54:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up libmp3lame0:amd64 (3.99.5+repack1-9build1) ...
+Setting up libopenjpeg5:amd64 (1:1.5.2-3.1) ...
+Setting up libshine3:amd64 (3.1.0-4) ...
+Setting up libsnappy1v5:amd64 (1.1.3-2) ...
+Setting up libsoxr0:amd64 (0.1.2-1) ...
+Setting up libswresample-ffmpeg1:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up libtwolame0:amd64 (0.3.13-1.2) ...
+Setting up libva1:amd64 (1.7.0-1) ...
+Setting up libx264-148:amd64 (2:0.148.2643+git5c65704-1) ...
+Setting up libx265-79:amd64 (1.9-3) ...
+Setting up libxvidcore4:amd64 (2:1.3.4-1) ...
+Setting up libzvbi-common (0.2.35-10) ...
+Setting up libzvbi0:amd64 (0.2.35-10) ...
+Setting up libavcodec-ffmpeg56:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up libbluray1:amd64 (1:0.9.2-2) ...
+Setting up libgme0:amd64 (0.6.0-3) ...
+Setting up libmodplug1:amd64 (1:0.8.8.5-2) ...
+Setting up libssh-gcrypt-4:amd64 (0.6.3-4.3) ...
+Setting up libavformat-ffmpeg56:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up libbdplus0:amd64 (0.1.2-1) ...
+Setting up libde265-0:amd64 (1.0.2-2) ...
+Setting up libdvdread4:amd64 (5.0.3-1) ...
+Setting up libdvdnav4:amd64 (5.0.3-1) ...
+Setting up libfluidsynth1:amd64 (1.1.6-3) ...
+Setting up libgtkglext1:amd64 (1.2.0-3.2fakesync1ubuntu1) ...
+Setting up libkate1:amd64 (0.4.1-7) ...
+Setting up libmimic0:amd64 (1.0.4-2.3) ...
+Setting up libmjpegutils-2.1-0 (1:2.1.0+debian-4) ...
+Setting up libmms0:amd64 (0.6.4-1) ...
+Setting up libmpeg2encpp-2.1-0 (1:2.1.0+debian-4) ...
+Setting up libmplex2-2.1-0 (1:2.1.0+debian-4) ...
+Setting up libofa0:amd64 (0.9.3-10ubuntu1) ...
+Setting up libtbb2:amd64 (4.4~20151115-0ubuntu3) ...
+Setting up libopencv-core2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-flann2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-imgproc2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-features2d2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-calib3d2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libdc1394-22:amd64 (2.2.4-1) ...
+Setting up libswscale-ffmpeg3:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up libopencv-highgui2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-ml2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-objdetect2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-video2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-contrib2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libopencv-legacy2.4v5:amd64 (2.4.9.1+dfsg-1.5ubuntu1) ...
+Setting up libsoundtouch1:amd64 (1.9.2-2) ...
+Setting up libspandsp2:amd64 (0.0.6-2.1) ...
+Setting up libsrtp0 (1.4.5~20130609~dfsg-1.1ubuntu1) ...
+Setting up libvdpau1:amd64 (1.1.1-3ubuntu1) ...
+Setting up libzbar0:amd64 (0.10+doc-10ubuntu1) ...
+Setting up mesa-vdpau-drivers:amd64 (11.2.0-1ubuntu2) ...
+Setting up i965-va-driver:amd64 (1.7.0-1) ...
+Setting up vdpau-va-driver:amd64 (0.7.4-5) ...
+Setting up va-driver-all:amd64 (1.7.0-1) ...
+Setting up vdpau-driver-all:amd64 (1.1.1-3ubuntu1) ...
+Setting up libass5:amd64 (0.13.1-1) ...
+Setting up libbs2b0:amd64 (3.1.0+dfsg-2.2) ...
+Setting up libchromaprint0:amd64 (1.3-1) ...
+Setting up libflite1:amd64 (2.0.0-release-1) ...
+Setting up libgstreamer-plugins-bad1.0-0:amd64 (1.8.1-1ubuntu0.1) ...
+Setting up gstreamer1.0-plugins-bad-videoparsers:amd64 (1.8.1-1ubuntu0.1) ...
+Setting up gstreamer1.0-plugins-bad-faad:amd64 (1.8.1-1ubuntu0.1) ...
+Setting up gstreamer1.0-plugins-bad:amd64 (1.8.1-1ubuntu0.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plugins-bad[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get install gstreamer1.0-*[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+WARNING: erroneous pipeline: no element "avdec_h264"
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[51Pall gstreamer1.0-plugins-bad
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kugly
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  gstreamer1.0-plugins-ugly-amr liba52-0.7.4 libmad0 libmpeg2-4 libmpg123-0
+  libopencore-amrnb0 libopencore-amrwb0 libsidplay1v5
+Suggested packages:
+  sidplay-base
+The following NEW packages will be installed:
+  gstreamer1.0-plugins-ugly gstreamer1.0-plugins-ugly-amr liba52-0.7.4 libmad0
+  libmpeg2-4 libmpg123-0 libopencore-amrnb0 libopencore-amrwb0 libsidplay1v5
+0 upgraded, 9 newly installed, 0 to remove and 32 not upgraded.
+Need to get 723 kB of archives.
+After this operation, 2,421 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmad0 amd64 0.15.1b-8ubuntu1 [71.5 kB]
+0% [1 libmad0 1,086 B/71.5 kB 2%]                                 10% [Working]             Get:2 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmpeg2-4 amd64 0.5.1-7 [59.1 kB]
+10% [2 libmpeg2-4 1,087 B/59.1 kB 2%]                                     19% [Working]             Get:3 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencore-amrnb0 amd64 0.1.3-2.1 [92.0 kB]
+22% [3 libopencore-amrnb0 25.2 kB/92.0 kB 27%]                                              31% [Working]             Get:4 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libopencore-amrwb0 amd64 0.1.3-2.1 [45.8 kB]
+35% [4 libopencore-amrwb0 31.5 kB/45.8 kB 69%]                                              39% [Working]             Get:5 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 gstreamer1.0-plugins-ugly-amr amd64 1.8.1-1ubuntu0.1 [18.6 kB]
+39% [5 gstreamer1.0-plugins-ugly-amr 4,515 B/18.6 kB 24%]                                                         43% [Working]             Get:6 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 liba52-0.7.4 amd64 0.7.4-18 [33.8 kB]
+43% [6 liba52-0.7.4 732 B/33.8 kB 2%]                                     49% [Working]             Get:7 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmpg123-0 amd64 1.22.4-1 [124 kB]
+50% [7 libmpg123-0 13.2 kB/124 kB 11%]                                      65% [Working]             Get:8 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libsidplay1v5 amd64 1.36.59-8 [63.6 kB]
+65% [8 libsidplay1v5 7,060 B/63.6 kB 11%]                                         74% [Working]             Get:9 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 gstreamer1.0-plugins-ugly amd64 1.8.1-1ubuntu0.1 [215 kB]
+74% [9 gstreamer1.0-plugins-ugly 3,397 B/215 kB 2%]                                                   100% [Working]              Fetched 723 kB in 0s (2,109 kB/s)
+Selecting previously unselected package libmad0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 209332 files and directories currently installed.)
+Preparing to unpack .../libmad0_0.15.1b-8ubuntu1_amd64.deb ...
+Unpacking libmad0:amd64 (0.15.1b-8ubuntu1) ...
+Selecting previously unselected package libmpeg2-4:amd64.
+Preparing to unpack .../libmpeg2-4_0.5.1-7_amd64.deb ...
+Unpacking libmpeg2-4:amd64 (0.5.1-7) ...
+Selecting previously unselected package libopencore-amrnb0:amd64.
+Preparing to unpack .../libopencore-amrnb0_0.1.3-2.1_amd64.deb ...
+Unpacking libopencore-amrnb0:amd64 (0.1.3-2.1) ...
+Selecting previously unselected package libopencore-amrwb0:amd64.
+Preparing to unpack .../libopencore-amrwb0_0.1.3-2.1_amd64.deb ...
+Unpacking libopencore-amrwb0:amd64 (0.1.3-2.1) ...
+Selecting previously unselected package gstreamer1.0-plugins-ugly-amr:amd64.
+Preparing to unpack .../gstreamer1.0-plugins-ugly-amr_1.8.1-1ubuntu0.1_amd64.deb ...
+Unpacking gstreamer1.0-plugins-ugly-amr:amd64 (1.8.1-1ubuntu0.1) ...
+Selecting previously unselected package liba52-0.7.4:amd64.
+Preparing to unpack .../liba52-0.7.4_0.7.4-18_amd64.deb ...
+Unpacking liba52-0.7.4:amd64 (0.7.4-18) ...
+Selecting previously unselected package libmpg123-0:amd64.
+Preparing to unpack .../libmpg123-0_1.22.4-1_amd64.deb ...
+Unpacking libmpg123-0:amd64 (1.22.4-1) ...
+Selecting previously unselected package libsidplay1v5.
+Preparing to unpack .../libsidplay1v5_1.36.59-8_amd64.deb ...
+Unpacking libsidplay1v5 (1.36.59-8) ...
+Selecting previously unselected package gstreamer1.0-plugins-ugly:amd64.
+Preparing to unpack .../gstreamer1.0-plugins-ugly_1.8.1-1ubuntu0.1_amd64.deb ...
+Unpacking gstreamer1.0-plugins-ugly:amd64 (1.8.1-1ubuntu0.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+Setting up libmad0:amd64 (0.15.1b-8ubuntu1) ...
+Setting up libmpeg2-4:amd64 (0.5.1-7) ...
+Setting up libopencore-amrnb0:amd64 (0.1.3-2.1) ...
+Setting up libopencore-amrwb0:amd64 (0.1.3-2.1) ...
+Setting up gstreamer1.0-plugins-ugly-amr:amd64 (1.8.1-1ubuntu0.1) ...
+Setting up liba52-0.7.4:amd64 (0.7.4-18) ...
+Setting up libmpg123-0:amd64 (1.22.4-1) ...
+Setting up libsidplay1v5 (1.36.59-8) ...
+Setting up gstreamer1.0-plugins-ugly:amd64 (1.8.1-1ubuntu0.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plugins-ugly[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+WARNING: erroneous pipeline: no element "avdec_h264"
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-ugly
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-ugly
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-ugly
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K
+gstreamer1.0-plugins-bad               gstreamer1.0-plugins-base-doc
+gstreamer1.0-plugins-bad-dbg           gstreamer1.0-plugins-good
+gstreamer1.0-plugins-bad-doc           gstreamer1.0-plugins-good-dbg
+gstreamer1.0-plugins-bad-faad          gstreamer1.0-plugins-good-doc
+gstreamer1.0-plugins-bad-videoparsers  gstreamer1.0-plugins-ugly
+gstreamer1.0-plugins-base              gstreamer1.0-plugins-ugly-amr
+gstreamer1.0-plugins-base-apps         gstreamer1.0-plugins-ugly-dbg
+gstreamer1.0-plugins-base-dbg          gstreamer1.0-plugins-ugly-doc
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plugins-good
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+gstreamer1.0-plugins-good is already the newest version (1.8.1-1ubuntu0.1).
+gstreamer1.0-plugins-good set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 32 not upgraded.
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-plugins-good[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+WARNING: erroneous pipeline: no element "avdec_h264"
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-good
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+gstreamer0.10-alsa                     gstreamer1.0-nice
+gstreamer0.10-doc                      gstreamer1.0-packagekit
+gstreamer0.10-gconf                    gstreamer1.0-plugins-bad
+gstreamer0.10-gnomevfs                 gstreamer1.0-plugins-bad-dbg
+gstreamer0.10-nice                     gstreamer1.0-plugins-bad-doc
+gstreamer0.10-plugins-base             gstreamer1.0-plugins-bad-faad
+gstreamer0.10-plugins-base-apps        gstreamer1.0-plugins-bad-videoparsers
+gstreamer0.10-plugins-base-dbg         gstreamer1.0-plugins-base
+gstreamer0.10-plugins-base-doc         gstreamer1.0-plugins-base-apps
+gstreamer0.10-plugins-good             gstreamer1.0-plugins-base-dbg
+gstreamer0.10-plugins-good-dbg         gstreamer1.0-plugins-base-doc
+gstreamer0.10-plugins-good-doc         gstreamer1.0-plugins-good
+gstreamer0.10-pulseaudio               gstreamer1.0-plugins-good-dbg
+gstreamer0.10-qapt                     gstreamer1.0-plugins-good-doc
+gstreamer0.10-tools                    gstreamer1.0-plugins-ugly
+gstreamer0.10-x                        gstreamer1.0-plugins-ugly-amr
+gstreamer1.0-alsa                      gstreamer1.0-plugins-ugly-dbg
+gstreamer1.0-clutter                   gstreamer1.0-plugins-ugly-doc
+gstreamer1.0-clutter-3.0               gstreamer1.0-pocketsphinx
+gstreamer1.0-crystalhd                 gstreamer1.0-pulseaudio
+gstreamer1.0-doc                       gstreamer1.0-tools
+gstreamer1.0-dvswitch                  gstreamer1.0-vaapi
+gstreamer1.0-espeak                    gstreamer1.0-vaapi-doc
+--More--[Kgstreamer1.0-fluendo-mp3               gstreamer1.0-x
+--More--[Kgstreamer1.0-hybris                    gstreamer-qapt
+--More--[Kgstreamer1.0-libav                     gstreamer-tools
+--More--[Kgstreamer1.0-libav-dbg                 
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package gstreamer
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-libav
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libavfilter-ffmpeg5 libavresample-ffmpeg2 libpostproc-ffmpeg53 libsodium18
+  libzmq5
+The following NEW packages will be installed:
+  gstreamer1.0-libav libavfilter-ffmpeg5 libavresample-ffmpeg2
+  libpostproc-ffmpeg53 libsodium18 libzmq5
+0 upgraded, 6 newly installed, 0 to remove and 32 not upgraded.
+Need to get 1,018 kB of archives.
+After this operation, 3,398 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libavresample-ffmpeg2 amd64 7:2.8.6-1ubuntu2 [51.9 kB]
+0% [1 libavresample-ffmpeg2 1,007 B/51.9 kB 2%]                                               7% [Working]            Get:2 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libpostproc-ffmpeg53 amd64 7:2.8.6-1ubuntu2 [49.0 kB]
+7% [2 libpostproc-ffmpeg53 1,007 B/49.0 kB 2%]                                              15% [Waiting for headers]                         Get:3 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libsodium18 amd64 1.0.8-5 [144 kB]
+16% [3 libsodium18 14.9 kB/144 kB 10%]                                      29% [Waiting for headers]                         Get:4 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libzmq5 amd64 4.1.4-7 [149 kB]
+30% [4 libzmq5 11.8 kB/149 kB 8%]                                 44% [Waiting for headers]                         Get:5 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libavfilter-ffmpeg5 amd64 7:2.8.6-1ubuntu2 [531 kB]
+45% [5 libavfilter-ffmpeg5 12.1 kB/531 kB 2%]                                             89% [Waiting for headers]                         Get:6 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 gstreamer1.0-libav amd64 1.8.1-1~ubuntu1 [92.3 kB]
+94% [6 gstreamer1.0-libav 55.1 kB/92.3 kB 60%]                                              100% [Working]              Fetched 1,018 kB in 0s (3,352 kB/s)
+Selecting previously unselected package libavresample-ffmpeg2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 209455 files and directories currently installed.)
+Preparing to unpack .../libavresample-ffmpeg2_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libavresample-ffmpeg2:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package libpostproc-ffmpeg53:amd64.
+Preparing to unpack .../libpostproc-ffmpeg53_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libpostproc-ffmpeg53:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package libsodium18:amd64.
+Preparing to unpack .../libsodium18_1.0.8-5_amd64.deb ...
+Unpacking libsodium18:amd64 (1.0.8-5) ...
+Selecting previously unselected package libzmq5:amd64.
+Preparing to unpack .../libzmq5_4.1.4-7_amd64.deb ...
+Unpacking libzmq5:amd64 (4.1.4-7) ...
+Selecting previously unselected package libavfilter-ffmpeg5:amd64.
+Preparing to unpack .../libavfilter-ffmpeg5_7%3a2.8.6-1ubuntu2_amd64.deb ...
+Unpacking libavfilter-ffmpeg5:amd64 (7:2.8.6-1ubuntu2) ...
+Selecting previously unselected package gstreamer1.0-libav:amd64.
+Preparing to unpack .../gstreamer1.0-libav_1.8.1-1~ubuntu1_amd64.deb ...
+Unpacking gstreamer1.0-libav:amd64 (1.8.1-1~ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+Setting up libavresample-ffmpeg2:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up libpostproc-ffmpeg53:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up libsodium18:amd64 (1.0.8-5) ...
+Setting up libzmq5:amd64 (4.1.4-7) ...
+Setting up libavfilter-ffmpeg5:amd64 (7:2.8.6-1ubuntu2) ...
+Setting up gstreamer1.0-libav:amd64 (1.8.1-1~ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall gstreamer1.0-libav[K[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+Setting pipeline to PAUSED ...
+Pipeline is live and does not need PREROLL ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+^[[A^[[B^Z
+[1]+  Stopped                 gst-launch-1.0 udpsrc port=5000 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+Setting pipeline to PAUSED ...
+Pipeline is live and does not need PREROLL ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+^Z
+[2]+  Stopped                 gst-launch-1.0 udpsrc port=5000 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get install gstreamer1.0-libav[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-good
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-ugly
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[51Pall gstreamer1.0-plugins-bad
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get install gstreamer1.0-*[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[51Pall gstreamer1.0-plugins-bad
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-ugly
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get inst[50Pall gstreamer1.0-plugins-good
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get install gstreamer[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.0-libav[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chostname -I
+10.42.0.1 
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ hostname -Igst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+Setting pipeline to PAUSED ...
+Pipeline is live and does not need PREROLL ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+^[[C^[[D^[[A^[[B                ^[[A^[[A^[[A^Z
+[3]+  Stopped                 gst-launch-1.0 udpsrc port=5000 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [5Phostname -I
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+10.108.203.236 10.42.0.1 
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ hostname -Igst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+Setting pipeline to PAUSED ...
+Pipeline is live and does not need PREROLL ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+^[[A^[[A^X^Z
+[4]+  Stopped                 gst-launch-1.0 udpsrc port=5000 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [5Phostname -I
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+Setting pipeline to PAUSED ...
+Pipeline is live and does not need PREROLL ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+^Z
+[5]+  Stopped                 gst-launch-1.0 udpsrc port=5000 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst
+gst-device-monitor-1.0   gst-install              gstreamer-codec-install
+gst-discoverer-1.0       gst-launch-1.0           gst-typefind-1.0
+gst-inspect-1.0          gst-play-1.0             
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst
+gst-device-monitor-1.0   gst-install              gstreamer-codec-install
+gst-discoverer-1.0       gst-launch-1.0           gst-typefind-1.0
+gst-inspect-1.0          gst-play-1.0             
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-
+gst-device-monitor-1.0  gst-install             gst-typefind-1.0
+gst-discoverer-1.0      gst-launch-1.0          
+gst-inspect-1.0         gst-play-1.0            
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 
+ERROR: pipeline could not be constructed: empty pipeline not allowed.
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 [K[K[K[K[K[K[K[K[K[K[Kplay-1.0 
+Usage: gst-play-1.0 FILE1|URI1 [FILE2|URI2] [FILE3|URI3] ...
+
+You must provide at least one filename or URI to play.
+
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-play-1.0 [2@launch[C[C[C[C[Cuddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false
+Setting pipeline to PAUSED ...
+Pipeline is live and does not need PREROLL ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+^Z
+[6]+  Stopped                 gst-launch-1.0 udpsrc port=5000 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 uddpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoconnvert     ! autovideosink sync=false[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csgst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoco[1@n[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [Cugst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! videoc[1@o[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [C[Cdgst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! video[1@c[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [C[C[Cogst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! vide[1@o[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [C[C[C[C gst-launch-1.0 udpsrc port=5000     ! gdpdepay     ! rtph264depay     ! avdec_h264     ! vid[1@e[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [C[C[C[C[C
+
+
+[sudo] password for certorio: 
+Setting pipeline to PAUSED ...
+Pipeline is live and does not need PREROLL ...
+Setting pipeline to PLAYING ...
+New clock: GstSystemClock
+^Z
+[7]+  Stopped                 sudo gst-launch-1.0 udpsrc port=5000 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall vlc
+vlc                    vlc-plugin-jack        vlc-plugin-svg
+vlc-data               vlc-plugin-notify      vlc-plugin-vlsub
+vlc-nox                vlc-plugin-samba       vlc-plugin-zvbi
+vlc-plugin-fluidsynth  vlc-plugin-sdl         
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ sudo apt-get insttall vlc
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  libbasicusageenvironment1 libcddb2 libdirectfb-1.2-9 libdvbpsi10 libebml4v5
+  libgles1-mesa libgles2-mesa libgroupsock8 libiso9660-8 liblivemedia50
+  libmatroska6v5 libmpcdec6 libproxy-tools libqt5x11extras5
+  libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libsidplay2v5 libssh2-1
+  libupnp6 libusageenvironment3 libva-drm1 libva-x11-1 libvcdinfo0 libvlc5
+  libvlccore8 libxcb-composite0 libxcb-xv0 vlc-data vlc-nox vlc-plugin-notify
+  vlc-plugin-samba
+Suggested packages:
+  libdvdcss2
+The following NEW packages will be installed:
+  libbasicusageenvironment1 libcddb2 libdirectfb-1.2-9 libdvbpsi10 libebml4v5
+  libgles1-mesa libgles2-mesa libgroupsock8 libiso9660-8 liblivemedia50
+  libmatroska6v5 libmpcdec6 libproxy-tools libqt5x11extras5
+  libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libsidplay2v5 libssh2-1
+  libupnp6 libusageenvironment3 libva-drm1 libva-x11-1 libvcdinfo0 libvlc5
+  libvlccore8 libxcb-composite0 libxcb-xv0 vlc vlc-data vlc-nox
+  vlc-plugin-notify vlc-plugin-samba
+0 upgraded, 33 newly installed, 0 to remove and 32 not upgraded.
+Need to get 12.2 MB of archives.
+After this operation, 62.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libdirectfb-1.2-9 amd64 1.2.10.0-5.1 [606 kB]
+0% [1 libdirectfb-1.2-9 1,005 B/606 kB 0%]                                          5% [Working]            Get:2 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmpcdec6 amd64 2:0.1~r459-4.1build1 [32.0 kB]
+5% [2 libmpcdec6 32.0 kB/32.0 kB 100%]                                      5% [Working]            Get:3 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libsdl1.2debian amd64 1.2.15+dfsg1-3 [168 kB]
+5% [3 libsdl1.2debian 2,244 B/168 kB 1%]                                        7% [Working]            Get:4 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libsdl-image1.2 amd64 1.2.12-5build2 [28.2 kB]
+7% [4 libsdl-image1.2 28.2 kB/28.2 kB 100%]                                           8% [Working]            Get:5 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libssh2-1 amd64 1.5.0-2 [70.3 kB]
+8% [5 libssh2-1 0 B/70.3 kB 0%]                               9% [Working]            Get:6 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libproxy-tools amd64 0.4.11-5ubuntu1 [5,226 B]
+9% [6 libproxy-tools 5,226 B/5,226 B 100%]                                          10% [Working]             Get:7 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 vlc-data all 2.2.2-5 [5,973 kB]
+10% [7 vlc-data 6,189 B/5,973 kB 0%]19% [7 vlc-data 1,375 kB/5,973 kB 23%]19% [7 vlc-data 1,375 kB/5,973 kB 23%]21% [7 vlc-data 1,742 kB/5,973 kB 29%]40% [7 vlc-data 4,696 kB/5,973 kB 79%]                                      49% [Working]             Get:8 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libvlccore8 amd64 2.2.2-5 [406 kB]
+50% [8 libvlccore8 12.2 kB/406 kB 3%]                                     53% [Waiting for headers]                         Get:9 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libvlc5 amd64 2.2.2-5 [59.9 kB]
+53% [9 libvlc5 11.6 kB/59.9 kB 19%]                                   54% [Working]             Get:10 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libbasicusageenvironment1 amd64 2016.02.09-1 [16.2 kB]
+54% [10 libbasicusageenvironment1 10.6 kB/16.2 kB 66%]                                                      54% [Working]             Get:11 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libcddb2 amd64 1.3.2-5fakesync1 [33.9 kB]
+55% [11 libcddb2 12.2 kB/33.9 kB 36%]                                     55% [Working]             Get:12 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libdvbpsi10 amd64 1.3.0-4 [47.7 kB]
+55% [12 libdvbpsi10 16.6 kB/47.7 kB 35%]                                        56% [Working]             Get:13 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libebml4v5 amd64 1.3.3-1 [44.8 kB]
+56% [13 libebml4v5 5,990 B/44.8 kB 13%]                                       57% [Working]             Get:14 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libgroupsock8 amd64 2016.02.09-1 [21.5 kB]
+57% [14 libgroupsock8 21.5 kB/21.5 kB 100%]                                           58% [Working]             Get:15 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 liblivemedia50 amd64 2016.02.09-1 [294 kB]
+58% [15 liblivemedia50 0 B/294 kB 0%]                                     60% [Working]             Get:16 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libmatroska6v5 amd64 1.4.4-1 [109 kB]
+61% [16 libmatroska6v5 53.3 kB/109 kB 49%]                                          62% [Working]             Get:17 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libresid-builder0c2a amd64 2.1.1-14ubuntu2 [31.3 kB]
+62% [17 libresid-builder0c2a 10.0 kB/31.3 kB 32%]                                                 63% [Working]             Get:18 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libsidplay2v5 amd64 2.1.1-14ubuntu2 [87.6 kB]
+63% [18 libsidplay2v5 4,096 B/87.6 kB 5%]                                         64% [Working]             Get:19 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libupnp6 amd64 1:1.6.19+git20160116-1 [121 kB]
+64% [19 libupnp6 21.7 kB/121 kB 18%]                                    65% [Working]             Get:20 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libusageenvironment3 amd64 2016.02.09-1 [7,120 B]
+65% [20 libusageenvironment3 4,157 B/7,120 B 58%]                                                 66% [Working]             Get:21 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libiso9660-8 amd64 0.83-4.2ubuntu1 [18.4 kB]
+66% [21 libiso9660-8 620 B/18.4 kB 3%]                                      66% [Working]             Get:22 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libvcdinfo0 amd64 0.7.24+dfsg-0.2 [90.7 kB]
+67% [22 libvcdinfo0 5,693 B/90.7 kB 6%]                                       68% [Working]             Get:23 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 vlc-nox amd64 2.2.2-5 [2,324 kB]
+68% [23 vlc-nox 15.9 kB/2,324 kB 1%]77% [23 vlc-nox 1,491 kB/2,324 kB 64%]                                      84% [Working]             Get:24 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libgles1-mesa amd64 11.2.0-1ubuntu2 [8,816 B]
+84% [24 libgles1-mesa 3,627 B/8,816 B 41%]                                          84% [Working]             Get:25 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libgles2-mesa amd64 11.2.0-1ubuntu2 [11.7 kB]
+84% [25 libgles2-mesa 8,192 B/11.7 kB 70%]                                          85% [Waiting for headers]                         Get:26 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libqt5x11extras5 amd64 5.5.1-3build1 [7,876 B]
+85% [26 libqt5x11extras5 586 B/7,876 B 7%]                                          86% [Working]             Get:27 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libva-drm1 amd64 1.7.0-1 [8,414 B]
+86% [27 libva-drm1 158 B/8,414 B 2%]                                    86% [Working]             Get:28 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 libva-x11-1 amd64 1.7.0-1 [11.9 kB]
+86% [28 libva-x11-1 11.9 kB/11.9 kB 100%]                                         87% [Working]             Get:29 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-composite0 amd64 1.11.1-1ubuntu1 [5,100 B]
+87% [29 libxcb-composite0 5,015 B/5,100 B 98%]                                              88% [Waiting for headers]                         Get:30 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libxcb-xv0 amd64 1.11.1-1ubuntu1 [8,994 B]
+88% [30 libxcb-xv0 8,651 B/8,994 B 96%]                                       88% [Waiting for headers]                         Get:31 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 vlc amd64 2.2.2-5 [1,508 kB]
+88% [31 vlc 16.1 kB/1,508 kB 1%]96% [31 vlc 1,224 kB/1,508 kB 81%]                                  99% [Waiting for headers]                         Get:32 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 vlc-plugin-notify amd64 2.2.2-5 [6,208 B]
+99% [32 vlc-plugin-notify 6,208 B/6,208 B 100%]                                               99% [Working]             Get:33 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 vlc-plugin-samba amd64 2.2.2-5 [5,920 B]
+99% [33 vlc-plugin-samba 5,920 B/5,920 B 100%]                                              100% [Working]              Fetched 12.2 MB in 4s (2,962 kB/s)
+Extracting templates from packages: 90%Extracting templates from packages: 100%
+Selecting previously unselected package libdirectfb-1.2-9:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 209497 files and directories currently installed.)
+Preparing to unpack .../libdirectfb-1.2-9_1.2.10.0-5.1_amd64.deb ...
+Unpacking libdirectfb-1.2-9:amd64 (1.2.10.0-5.1) ...
+Selecting previously unselected package libmpcdec6:amd64.
+Preparing to unpack .../libmpcdec6_2%3a0.1~r459-4.1build1_amd64.deb ...
+Unpacking libmpcdec6:amd64 (2:0.1~r459-4.1build1) ...
+Selecting previously unselected package libsdl1.2debian:amd64.
+Preparing to unpack .../libsdl1.2debian_1.2.15+dfsg1-3_amd64.deb ...
+Unpacking libsdl1.2debian:amd64 (1.2.15+dfsg1-3) ...
+Selecting previously unselected package libsdl-image1.2:amd64.
+Preparing to unpack .../libsdl-image1.2_1.2.12-5build2_amd64.deb ...
+Unpacking libsdl-image1.2:amd64 (1.2.12-5build2) ...
+Selecting previously unselected package libssh2-1:amd64.
+Preparing to unpack .../libssh2-1_1.5.0-2_amd64.deb ...
+Unpacking libssh2-1:amd64 (1.5.0-2) ...
+Selecting previously unselected package libproxy-tools.
+Preparing to unpack .../libproxy-tools_0.4.11-5ubuntu1_amd64.deb ...
+Unpacking libproxy-tools (0.4.11-5ubuntu1) ...
+Selecting previously unselected package vlc-data.
+Preparing to unpack .../vlc-data_2.2.2-5_all.deb ...
+Unpacking vlc-data (2.2.2-5) ...
+Selecting previously unselected package libvlccore8.
+Preparing to unpack .../libvlccore8_2.2.2-5_amd64.deb ...
+Unpacking libvlccore8 (2.2.2-5) ...
+Selecting previously unselected package libvlc5.
+Preparing to unpack .../libvlc5_2.2.2-5_amd64.deb ...
+Unpacking libvlc5 (2.2.2-5) ...
+Selecting previously unselected package libbasicusageenvironment1:amd64.
+Preparing to unpack .../libbasicusageenvironment1_2016.02.09-1_amd64.deb ...
+Unpacking libbasicusageenvironment1:amd64 (2016.02.09-1) ...
+Selecting previously unselected package libcddb2.
+Preparing to unpack .../libcddb2_1.3.2-5fakesync1_amd64.deb ...
+Unpacking libcddb2 (1.3.2-5fakesync1) ...
+Selecting previously unselected package libdvbpsi10:amd64.
+Preparing to unpack .../libdvbpsi10_1.3.0-4_amd64.deb ...
+Unpacking libdvbpsi10:amd64 (1.3.0-4) ...
+Selecting previously unselected package libebml4v5:amd64.
+Preparing to unpack .../libebml4v5_1.3.3-1_amd64.deb ...
+Unpacking libebml4v5:amd64 (1.3.3-1) ...
+Selecting previously unselected package libgroupsock8:amd64.
+Preparing to unpack .../libgroupsock8_2016.02.09-1_amd64.deb ...
+Unpacking libgroupsock8:amd64 (2016.02.09-1) ...
+Selecting previously unselected package liblivemedia50:amd64.
+Preparing to unpack .../liblivemedia50_2016.02.09-1_amd64.deb ...
+Unpacking liblivemedia50:amd64 (2016.02.09-1) ...
+Selecting previously unselected package libmatroska6v5:amd64.
+Preparing to unpack .../libmatroska6v5_1.4.4-1_amd64.deb ...
+Unpacking libmatroska6v5:amd64 (1.4.4-1) ...
+Selecting previously unselected package libresid-builder0c2a.
+Preparing to unpack .../libresid-builder0c2a_2.1.1-14ubuntu2_amd64.deb ...
+Unpacking libresid-builder0c2a (2.1.1-14ubuntu2) ...
+Selecting previously unselected package libsidplay2v5.
+Preparing to unpack .../libsidplay2v5_2.1.1-14ubuntu2_amd64.deb ...
+Unpacking libsidplay2v5 (2.1.1-14ubuntu2) ...
+Selecting previously unselected package libupnp6.
+Preparing to unpack .../libupnp6_1%3a1.6.19+git20160116-1_amd64.deb ...
+Unpacking libupnp6 (1:1.6.19+git20160116-1) ...
+Selecting previously unselected package libusageenvironment3:amd64.
+Preparing to unpack .../libusageenvironment3_2016.02.09-1_amd64.deb ...
+Unpacking libusageenvironment3:amd64 (2016.02.09-1) ...
+Selecting previously unselected package libiso9660-8:amd64.
+Preparing to unpack .../libiso9660-8_0.83-4.2ubuntu1_amd64.deb ...
+Unpacking libiso9660-8:amd64 (0.83-4.2ubuntu1) ...
+Selecting previously unselected package libvcdinfo0.
+Preparing to unpack .../libvcdinfo0_0.7.24+dfsg-0.2_amd64.deb ...
+Unpacking libvcdinfo0 (0.7.24+dfsg-0.2) ...
+Selecting previously unselected package vlc-nox.
+Preparing to unpack .../vlc-nox_2.2.2-5_amd64.deb ...
+Unpacking vlc-nox (2.2.2-5) ...
+Selecting previously unselected package libgles1-mesa:amd64.
+Preparing to unpack .../libgles1-mesa_11.2.0-1ubuntu2_amd64.deb ...
+Unpacking libgles1-mesa:amd64 (11.2.0-1ubuntu2) ...
+Selecting previously unselected package libgles2-mesa:amd64.
+Preparing to unpack .../libgles2-mesa_11.2.0-1ubuntu2_amd64.deb ...
+Unpacking libgles2-mesa:amd64 (11.2.0-1ubuntu2) ...
+Selecting previously unselected package libqt5x11extras5:amd64.
+Preparing to unpack .../libqt5x11extras5_5.5.1-3build1_amd64.deb ...
+Unpacking libqt5x11extras5:amd64 (5.5.1-3build1) ...
+Selecting previously unselected package libva-drm1:amd64.
+Preparing to unpack .../libva-drm1_1.7.0-1_amd64.deb ...
+Unpacking libva-drm1:amd64 (1.7.0-1) ...
+Selecting previously unselected package libva-x11-1:amd64.
+Preparing to unpack .../libva-x11-1_1.7.0-1_amd64.deb ...
+Unpacking libva-x11-1:amd64 (1.7.0-1) ...
+Selecting previously unselected package libxcb-composite0:amd64.
+Preparing to unpack .../libxcb-composite0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-composite0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package libxcb-xv0:amd64.
+Preparing to unpack .../libxcb-xv0_1.11.1-1ubuntu1_amd64.deb ...
+Unpacking libxcb-xv0:amd64 (1.11.1-1ubuntu1) ...
+Selecting previously unselected package vlc.
+Preparing to unpack .../archives/vlc_2.2.2-5_amd64.deb ...
+Unpacking vlc (2.2.2-5) ...
+Selecting previously unselected package vlc-plugin-notify.
+Preparing to unpack .../vlc-plugin-notify_2.2.2-5_amd64.deb ...
+Unpacking vlc-plugin-notify (2.2.2-5) ...
+Selecting previously unselected package vlc-plugin-samba.
+Preparing to unpack .../vlc-plugin-samba_2.2.2-5_amd64.deb ...
+Unpacking vlc-plugin-samba (2.2.2-5) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160523-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5) ...
+Setting up libdirectfb-1.2-9:amd64 (1.2.10.0-5.1) ...
+Setting up libmpcdec6:amd64 (2:0.1~r459-4.1build1) ...
+Setting up libsdl1.2debian:amd64 (1.2.15+dfsg1-3) ...
+Setting up libsdl-image1.2:amd64 (1.2.12-5build2) ...
+Setting up libssh2-1:amd64 (1.5.0-2) ...
+Setting up libproxy-tools (0.4.11-5ubuntu1) ...
+Setting up vlc-data (2.2.2-5) ...
+Setting up libvlccore8 (2.2.2-5) ...
+Setting up libvlc5 (2.2.2-5) ...
+Setting up libbasicusageenvironment1:amd64 (2016.02.09-1) ...
+Setting up libcddb2 (1.3.2-5fakesync1) ...
+Setting up libdvbpsi10:amd64 (1.3.0-4) ...
+Setting up libebml4v5:amd64 (1.3.3-1) ...
+Setting up libgroupsock8:amd64 (2016.02.09-1) ...
+Setting up liblivemedia50:amd64 (2016.02.09-1) ...
+Setting up libmatroska6v5:amd64 (1.4.4-1) ...
+Setting up libresid-builder0c2a (2.1.1-14ubuntu2) ...
+Setting up libsidplay2v5 (2.1.1-14ubuntu2) ...
+Setting up libupnp6 (1:1.6.19+git20160116-1) ...
+Setting up libusageenvironment3:amd64 (2016.02.09-1) ...
+Setting up libiso9660-8:amd64 (0.83-4.2ubuntu1) ...
+Setting up libvcdinfo0 (0.7.24+dfsg-0.2) ...
+Setting up vlc-nox (2.2.2-5) ...
+Setting up libgles1-mesa:amd64 (11.2.0-1ubuntu2) ...
+Setting up libgles2-mesa:amd64 (11.2.0-1ubuntu2) ...
+Setting up libqt5x11extras5:amd64 (5.5.1-3build1) ...
+Setting up libva-drm1:amd64 (1.7.0-1) ...
+Setting up libva-x11-1:amd64 (1.7.0-1) ...
+Setting up libxcb-composite0:amd64 (1.11.1-1ubuntu1) ...
+Setting up libxcb-xv0:amd64 (1.11.1-1ubuntu1) ...
+Setting up vlc (2.2.2-5) ...
+Setting up vlc-plugin-notify (2.2.2-5) ...
+Setting up vlc-plugin-samba (2.2.2-5) ...
+Processing triggers for libc-bin (2.23-0ubuntu3) ...
+Processing triggers for vlc-nox (2.2.2-5) ...
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ hostname - [KI
+10.108.203.236 10.42.0.1 
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ ^C
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 - v tcpclientsrc host=<IP-OF-THE-RPI> port=5000  ! gdpdepay !  rtph264depay ! avde c_h264 ! videoconvert ! autovideosink sync=false[A[A]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ [5Phostname -I
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgst-launch-1.0 -vv tcpclientsrc host=<IP-OF-THE-RPI> port=5000  ! gdpdepay !  rtph264depay ! avdecc_h264 ! videoconvert ! autovideosink sync=false[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> port=5000  ! gdpdepay !  rtph264depay ! avdec_[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C> port=5000  ! gdpdepay !  rtph264depay ! avdec_h[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h2[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h26[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ![1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! v[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! vi[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! vid[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! vide[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! video[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! videoc[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! videoco[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! videoc[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! video[1@c[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! vide[1@o[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! vid[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! vi[1@d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! v[1@i[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C0 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! [1@v[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ![1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 [1@![A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2 port=5000  ! gdpdepay !  rtph264depay ! avdec_h26[1@4[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Setting pipeline to PAUSED ...
+ERROR: Pipeline doesn't want to pause.
+ERROR: from element /GstPipeline:pipeline0/GstTCPClientSrc:tcpclientsrc0: Could not open resource for reading.
+Additional debug info:
+gsttcpclientsrc.c(433): gst_tcp_client_src_start (): /GstPipeline:pipeline0/GstTCPClientSrc:tcpclientsrc0:
+Failed to connect to host '10.42.0.232:5000': Connection refused
+Setting pipeline to NULL ...
+Freeing pipeline ...
+]0;certorio@certorio-Inspiron-7348: ~/Desktop/project/t_controller[01;32mcertorio@certorio-Inspiron-7348[00m:[01;34m~/Desktop/project/t_controller[00m$ gst-launch-1.0 -vv tcpclientsrc host=10.42.0.232 port=5000  ! gdpdepay !  rtph264depay ! avdec_h2664 ! videoconvert ! autovideosink sync=false
+Setting pipeline to PAUSED ...
+Pipeline is PREROLLING ...
+/GstPipeline:pipeline0/GstGDPDepay:gdpdepay0.GstPad:src: caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)H264\,\ sprop-parameter-sets\=\(string\)\"J2QAKKwrQJhP3cA8SJqA\\\,KO4BDyw\\\=\"\,\ payload\=\(int\)96\,\ ssrc\=\(uint\)2429775170\,\ timestamp-offset\=\(uint\)3110824404\,\ seqnum-offset\=\(uint\)15718"
+/GstPipeline:pipeline0/GstRtpH264Depay:rtph264depay0.GstPad:src: caps = "video/x-h264\,\ stream-format\=\(string\)avc\,\ alignment\=\(string\)au\,\ codec_data\=\(buffer\)01640028ffe1000f27640028ac2b40984fddc03c489a8001000528ee010f2c\,\ level\=\(string\)4\,\ profile\=\(string\)high"
+/GstPipeline:pipeline0/avdec_h264:avdec_h264-0.GstPad:sink: caps = "video/x-h264\,\ stream-format\=\(string\)avc\,\ alignment\=\(string\)au\,\ codec_data\=\(buffer\)01640028ffe1000f27640028ac2b40984fddc03c489a8001000528ee010f2c\,\ level\=\(string\)4\,\ profile\=\(string\)high"
+/GstPipeline:pipeline0/GstRtpH264Depay:rtph264depay0.GstPad:sink: caps = "application/x-rtp\,\ media\=\(string\)video\,\ clock-rate\=\(int\)90000\,\ encoding-name\=\(string\)H264\,\ sprop-parameter-sets\=\(string\)\"J2QAKKwrQJhP3cA8SJqA\\\,KO4BDyw\\\=\"\,\ payload\=\(int\)96\,\ ssrc\=\(uint\)2429775170\,\ timestamp-offset\=\(uint\)3110824404\,\ seqnum-offset\=\(uint\)15718"
+/GstPipeline:pipeline0/avdec_h264:avdec_h264-0.GstPad:src: caps = "video/x-raw\,\ format\=\(string\)I420\,\ width\=\(int\)300\,\ height\=\(int\)300\,\ interlace-mode\=\(string\)progressive\,\ pixel-aspect-ratio\=\(fraction\)1/1\,\ chroma-site\=\(string\)mpeg2\,\ colorimetry\=\(string\)bt601\,\ framerate\=\(fraction\)25/1"
+/GstPipeline:pipeline0/GstVideoConvert:videoconvert0.GstPad:src: caps = "video/x-raw\,\ format\=\(string\)I420\,\ width\=\(int\)300\,\ height\=\(int\)300\,\ interlace-mode\=\(string\)progressive\,\ pixel-aspect-ratio\=\(fraction\)1/1\,\ chroma-site\=\(string\)mpeg2\,\ colorimetry\=\(string\)bt601\,\ framerate\=\(fraction\)25/1"
+/GstPipeline:pipeline0/GstAutoVideoSink:autovideosink0.GstGhostPad:sink.GstProxyPad:proxypad0: caps = "video/x-raw\,\ format\=\(stri
