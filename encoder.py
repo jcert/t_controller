@@ -40,17 +40,18 @@ class encoder(encoders):
 		self.distance = 0
 		encoders.connected_encoders.append(self)
 	def fsm(self,old,new):
-		table = [0,-1,1,0,
+		TABLE = [0,-1,1,0,
 				1,0,0,-1,
 				-1,0,0,1,
 				0,1,-1,0]
-		return table[4*old+new]       
+		return TABLE[4*old+new]       
 	
 	def update(self):
 		#correponding C pin to output
 		#corresponding C pin to HIGH
 		RPIO.setup(self.c, RPIO.OUT)
 		RPIO.output(self.c, True)
+		time.sleep(0.005)
 		self.newS1 = RPIO.input(encoders.a)
 		self.newS2 = RPIO.input(encoders.b)
 		RPIO.setup(self.c, RPIO.IN)

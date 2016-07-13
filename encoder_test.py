@@ -9,16 +9,19 @@ component    =  encoder.encoder(16) #pin C
 acc_state = 0
 
 c=0
+cont = 0
 while True:
 	component_measure.update()
 	time.sleep(0.01)
 	if acc_state != component.new_state:
 		acc_state = component.new_state
-		print acc_state
+		#print acc_state
+		cont +=1
 	c+=1
-	if c > 100:
+	if c > 200:
 		c=0
-		print '>>>>>>',component.get_dist() 
+		print cont
+		#print '>>>>>>',component.get_dist() 
 	pass
 
 
