@@ -3,15 +3,17 @@ import time
 
 
 component_measure = encoder.encoders(20,21) #pins A and B
-component    =    component_measure.encoder(16) #pin C
+print encoder.encoders.a
+print component_measure.b
+component    =  encoder.encoder(16) #pin C
 
 
 c=0
-while true:
+while True:
 	component_measure.update()
-	sleep(0.01)
+	time.sleep(0.01)
 	c+=1
-	if c > 500:
+	if c > 100:
 		c=0
 		print component.get_dist() 
 	pass
