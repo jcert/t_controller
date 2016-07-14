@@ -1,1 +1,2 @@
-import time
+__all__ = ['encoder_test']
+import encoder_test

@@ -1,4 +1,4 @@
-import encoder
+from hardware import encoder
 import time
 
 
