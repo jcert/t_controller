@@ -1,6 +1,11 @@
 from hardware import encoder
 import time
 
+#with this script you can see the # of times the state has changed as 
+#you rotate the encoder
+	#be aware of the pins being used
+	#uncomment the line below to see state change or rotation count 
+
 
 component_measure = encoder.encoders(20,21) #pins A and B
 print encoder.encoders.a
