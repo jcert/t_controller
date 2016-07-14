@@ -2,10 +2,12 @@ from hardware import motor
 import time
 
 
-
 	#pin config the motor driver
+#create object for motors
+all_motors = motor.motor()
+
 #create object driver, that can serve up to two motors
-driver = motor.driver()
+driver = all_motor.driver()
 
 #add to driver object one motor, giving the pin used for the connection
 motor1 = driver.add_motor(m1a,m1b)
