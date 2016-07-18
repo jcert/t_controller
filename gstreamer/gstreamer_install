@@ -1,3 +1,5 @@
+#!/bin/sh
+#run with sudo
 
 sudo apt-get install gstreamer1.0-*
 sudo apt-get install gstreamer1.0-plugins-bad
