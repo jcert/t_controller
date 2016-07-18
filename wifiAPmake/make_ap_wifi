@@ -7,6 +7,8 @@
 apt-get update
 apt-get install hostapd isc-dhcp-server 
 
+mkdir -p originals
+
 cp /etc/dhcp/dhcpd.conf originals/dhcpd.conf
 cp dhcpd.conf /etc/dhcp/dhcpd.conf
 
