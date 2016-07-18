@@ -1,0 +1,30 @@
+#!/bin/sh
+#this will also make a copy of the original files, just in case
+#if you run it twice the real original files will be lost, so
+#reallocate them before doing so
+#run this as sudo
+
+apt-get update
+apt-get install hostapd isc-dhcp-server 
+
+cp /etc/dhcp/dhcpd.conf originals/dhcpd.conf
+cp dhcpd.conf /etc/dhcp/dhcpd.conf
+
+cp /etc/default/isc-dhcp-server  originals/isc-dhcp-server
+cp isc-dhcp-server /etc/default/isc-dhcp-server
+
+ifdown wlan0
+
+cp /etc/network/interfaces originals/interfaces
+cp interfaces /etc/network/interfaces 	
+
+ifconfig wlan0 192.168.42.1
+
+cp /etc/hostapd/hostapd.conf    originals/hostapd.conf
+cp hostapd.conf  /etc/hostapd/hostapd.conf    
+
+cp /etc/default/hostapd  originals/hostapd
+cp hostapd  /etc/default/hostapd  
+
+cp /etc/sysctl.conf   originals/sysctl.conf
+cp sysctl.conf  /etc/sysctl.conf   
