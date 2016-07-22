@@ -13,7 +13,7 @@
 #i2cdetect -y 1 #the bus in the pi is #1, zero doesn't exist
 
 import smbus
-import time
+#import time
 #0x19 & 0x1E & 0x6B
 #address = 0xAA # check to see the addresses of each module of the imu
 #bus.read_byte_data(address_to_device, register) #register is read as cmd in the smbus files
