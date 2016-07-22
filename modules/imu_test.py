@@ -3,7 +3,7 @@ import time
 
 
 
-x = imu.IMU_device(0x19,0x1e,0x6b)
+x = imu.IMU_device(0x19,0x6b,0x1e)
 
 time.sleep(1)
 
