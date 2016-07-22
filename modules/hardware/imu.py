@@ -29,14 +29,14 @@ class IMU_accel(IMU_device):
 		self.address = device_address
 
 	def read(self):
-		self.x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
-		self.x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
+		x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
+		x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
-		self.y  = IMU_device.bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
-		self.y |= IMU_device.bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
+		y  = IMU_device.bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
+		y |= IMU_device.bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
 
-		self.z  = IMU_device.bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
-		self.z |= IMU_device.bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
+		z  = IMU_device.bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
+		z |= IMU_device.bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
 		return [x,y,z]
 
 class IMU_gyro(IMU_device):
@@ -44,14 +44,14 @@ class IMU_gyro(IMU_device):
 		self.address = device_address
 
 	def read(self):
-		self.x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
-		self.x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
+		x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
+		x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
-		self.y  = IMU_device.bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
-		self.y |= IMU_device.bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
+		y  = IMU_device.bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
+		y |= IMU_device.bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
 
-		self.z  = IMU_device.bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
-		self.z |= IMU_device.bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
+		z  = IMU_device.bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
+		z |= IMU_device.bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
 		return [x,y,z]
 
 class IMU_comp(IMU_device):
@@ -59,13 +59,13 @@ class IMU_comp(IMU_device):
 		self.address = device_address
 
 	def read(self):
-		self.x  = IMU_device.bus.read_byte_data(self.address, 0x04) << 8 #read and shift to MSB
-		self.x |= IMU_device.bus.read_byte_data(self.address, 0x03)      #read LSB and combine with previous
+		x  = IMU_device.bus.read_byte_data(self.address, 0x04) << 8 #read and shift to MSB
+		x |= IMU_device.bus.read_byte_data(self.address, 0x03)      #read LSB and combine with previous
 
-		self.y  = IMU_device.bus.read_byte_data(self.address, 0x06) << 8 #read and shift to MSB
-		self.y |= IMU_device.bus.read_byte_data(self.address, 0x05)      #read LSB and combine with previous
+		y  = IMU_device.bus.read_byte_data(self.address, 0x06) << 8 #read and shift to MSB
+		y |= IMU_device.bus.read_byte_data(self.address, 0x05)      #read LSB and combine with previous
 
-		self.z  = IMU_device.bus.read_byte_data(self.address, 0x08) << 8 #read and shift to MSB
-		self.z |= IMU_device.bus.read_byte_data(self.address, 0x07)      #read LSB and combine with previous
+		z  = IMU_device.bus.read_byte_data(self.address, 0x08) << 8 #read and shift to MSB
+		z |= IMU_device.bus.read_byte_data(self.address, 0x07)      #read LSB and combine with previous
 		return [x,y,z]
 
