@@ -43,6 +43,7 @@ class IMU_accel(IMU_device):
 class IMU_gyro(IMU_device):
 	def __init__(self,device_address):
 		self.address = device_address
+		IMU_device.bus.write_byte_data(self.address,0x20, 0xbf) #enables the accel writing to first control register, 10Hz data
 
 	def read(self):
 		x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
@@ -58,6 +59,7 @@ class IMU_gyro(IMU_device):
 class IMU_comp(IMU_device):
 	def __init__(self,device_address):
 		self.address = device_address
+		IMU_device.bus.write_byte_data(self.address,0x20, 0x27) #enables the accel writing to first control register, 10Hz data
 
 	def read(self):
 		x  = IMU_device.bus.read_byte_data(self.address, 0x04) << 8 #read and shift to MSB
