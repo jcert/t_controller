@@ -4,29 +4,39 @@
 #reallocate them before doing so
 #run this as sudo
 
+
+echo "installing the packages needed"
 apt-get update
 apt-get install hostapd isc-dhcp-server 
 
 mkdir -p originals
 
+echo "starting dhcpd and configure it"
+dhcpd
 cp /etc/dhcp/dhcpd.conf originals/dhcpd.conf
 cp dhcpd.conf /etc/dhcp/dhcpd.conf
 
 cp /etc/default/isc-dhcp-server  originals/isc-dhcp-server
 cp isc-dhcp-server /etc/default/isc-dhcp-server
 
+echo "trying to stop wlan0, might be stopped already"
 ifdown wlan0
 
+echo "configuring interfaces"
 cp /etc/network/interfaces originals/interfaces
 cp interfaces /etc/network/interfaces 	
 
+echo "static ip on wlan0"
 ifconfig wlan0 192.168.42.1
 
+echo "configuring hostapd.conf"
 cp /etc/hostapd/hostapd.conf    originals/hostapd.conf
 cp hostapd.conf  /etc/hostapd/hostapd.conf    
 
+echo "configuring hostapd"
 cp /etc/default/hostapd  originals/hostapd
 cp hostapd  /etc/default/hostapd  
 
+echo "configuring sysctl.conf"
 cp /etc/sysctl.conf   originals/sysctl.conf
 cp sysctl.conf  /etc/sysctl.conf   
