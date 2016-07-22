@@ -1,8 +1,12 @@
 #!/bin/sh
 #find how to pass the ip by parameter
 
+if [ "$#" -ne 1 ]; then
+    echo "Illegal number of parameters, must have 1. Pi_IP"
+else
+	/opt/vc/bin/raspivid -t 0 -hf -fps 20 -w 300 -h 300 -o - | gst-launch-1.0 fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=$1  port=5000
+fi
 
-/opt/vc/bin/raspivid -t 0 -hf -fps 20 -w 300 -h 300 -o - | gst-launch-1.0 fdsrc ! h264parse ! rtph264pay config-interval=1 pt=96 ! gdppay ! tcpserversink host=$1  port=5000
 
 
 

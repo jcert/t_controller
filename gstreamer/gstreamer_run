@@ -1,7 +1,13 @@
 #!/bin/sh
 #find how to pass the ip by parameter
 
-gst-launch-1.0 -v tcpclientsrc host=$1 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+if [ "$#" -ne 1 ]; then
+    echo "Illegal number of parameteras, must have 1. Pi_IP"
+else
+	gst-launch-1.0 -v tcpclientsrc host=$1 port=5000  ! gdpdepay !  rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+fi
+
+
 
 
 
