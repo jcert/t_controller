@@ -28,7 +28,7 @@ class IMU_accel(IMU_device):
 	def __init__(self,device_address):
 		self.address = device_address
 
-	def read(IMU_device):
+	def read(self):
 		self.x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
 		self.x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
