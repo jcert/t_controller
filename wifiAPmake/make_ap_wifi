@@ -11,7 +11,7 @@ apt-get install hostapd isc-dhcp-server
 
 mkdir -p originals
 
-echo "starting dhcpd and configure it"
+echo "starting dhcpd and configuring it"
 dhcpd
 cp /etc/dhcp/dhcpd.conf originals/dhcpd.conf
 cp dhcpd.conf /etc/dhcp/dhcpd.conf
@@ -33,6 +33,8 @@ echo "configuring hostapd.conf"
 cp /etc/hostapd/hostapd.conf    originals/hostapd.conf
 cp hostapd.conf  /etc/hostapd/hostapd.conf    
 
+echo "starting hostapd"
+hostapd
 echo "configuring hostapd"
 cp /etc/default/hostapd  originals/hostapd
 cp hostapd  /etc/default/hostapd  
