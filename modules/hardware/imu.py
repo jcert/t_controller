@@ -24,48 +24,48 @@ class IMU_device:
 		self.gyro  = IMU_gyro(gyro_address)
 		self.comp  = IMU_comp(comp_address)
 
-class IMU_accel:
+class IMU_accel(upper):
 	def __init__(self,device_address):
 		self.address = device_address
 
 	def read(self):
-		self.x  = bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
-		self.x |= bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
+		self.x  = upper.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
+		self.x |= upper.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
-		self.y  = bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
-		self.y |= bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
+		self.y  = upper.bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
+		self.y |= upper.bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
 
-		self.z  = bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
-		self.z |= bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
+		self.z  = upper.bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
+		self.z |= upper.bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
 		return [x,y,z]
 
-class IMU_gyro:
+class IMU_gyro(upper):
 	def __init__(self,device_address):
 		self.address = device_address
 
 	def read(self):
-		self.x  = bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
-		self.x |= bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
+		self.x  = upper.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
+		self.x |= upper.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
-		self.y  = bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
-		self.y |= bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
+		self.y  = upper.bus.read_byte_data(self.address, 0x2B) << 8 #read and shift to MSB
+		self.y |= upper.bus.read_byte_data(self.address, 0x2A)      #read LSB and combine with previous
 
-		self.z  = bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
-		self.z |= bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
+		self.z  = upper.bus.read_byte_data(self.address, 0x2D) << 8 #read and shift to MSB
+		self.z |= upper.bus.read_byte_data(self.address, 0x2C)      #read LSB and combine with previous
 		return [x,y,z]
 
-class IMU_comp:
+class IMU_comp(upper):
 	def __init__(self,device_address):
 		self.address = device_address
 
 	def read(self):
-		self.x  = bus.read_byte_data(self.address, 0x04) << 8 #read and shift to MSB
-		self.x |= bus.read_byte_data(self.address, 0x03)      #read LSB and combine with previous
+		self.x  = upper.bus.read_byte_data(self.address, 0x04) << 8 #read and shift to MSB
+		self.x |= upper.bus.read_byte_data(self.address, 0x03)      #read LSB and combine with previous
 
-		self.y  = bus.read_byte_data(self.address, 0x06) << 8 #read and shift to MSB
-		self.y |= bus.read_byte_data(self.address, 0x05)      #read LSB and combine with previous
+		self.y  = upper.bus.read_byte_data(self.address, 0x06) << 8 #read and shift to MSB
+		self.y |= upper.bus.read_byte_data(self.address, 0x05)      #read LSB and combine with previous
 
-		self.z  = bus.read_byte_data(self.address, 0x08) << 8 #read and shift to MSB
-		self.z |= bus.read_byte_data(self.address, 0x07)      #read LSB and combine with previous
+		self.z  = upper.bus.read_byte_data(self.address, 0x08) << 8 #read and shift to MSB
+		self.z |= upper.bus.read_byte_data(self.address, 0x07)      #read LSB and combine with previous
 		return [x,y,z]
 
