@@ -32,9 +32,9 @@ class IMU_accel(IMU_device):
 	def read(self):
 		def data_convert(number):
 		#converts a 2 byte number into a signed one
-			mag = number & ( 0x8000)
-			sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
-			return -(1<<(16))+mag
+			sig = number & ( 0x8000)
+			mag = number & (~0x8000)#the operator ~ in python does ~n => -n-1
+			return -sig+mag
 		x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
 		x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
@@ -53,9 +53,9 @@ class IMU_gyro(IMU_device):
 	def read(self):
 		def data_convert(number):
 		#converts a 2 byte number into a signed one
-			mag = number & ( 0x8000)
-			sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
-			return -(1<<(16))+mag
+			sig = number & ( 0x8000)
+			mag = number & (~0x8000)#the operator ~ in python does ~n => -n-1
+			return -sig+mag
 		x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
 		x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
@@ -75,9 +75,9 @@ class IMU_comp(IMU_device):
 	def read(self):
 		def data_convert(number):
 		#converts a 2 byte number into a signed one
-			mag = number & ( 0x8000)
-			sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
-			return -(1<<(16))+mag
+			sig = number & ( 0x8000)
+			mag = number & (~0x8000)#the operator ~ in python does ~n => -n-1
+			return -sig+mag
 		x  = IMU_device.bus.read_byte_data(self.address, 0x04) << 8 #read and shift to MSB
 		x |= IMU_device.bus.read_byte_data(self.address, 0x03)      #read LSB and combine with previous
 
