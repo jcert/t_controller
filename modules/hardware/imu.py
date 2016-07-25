@@ -72,6 +72,7 @@ class IMU_comp(IMU_device):
 	def __init__(self,device_address):
 		self.address = device_address
 		IMU_device.bus.write_byte_data(self.address,0x02, 0x00)
+		IMU_device.bus.write_byte_data(self.address,0x01, 0x20)
 
 	def data_convert(number):
 	#converts a 2 byte number into a signed one
