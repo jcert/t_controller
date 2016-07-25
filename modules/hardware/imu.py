@@ -29,13 +29,6 @@ class IMU_accel(IMU_device):
 		self.address = device_address
 		IMU_device.bus.write_byte_data(self.address,0x20, 0x27) #enables the accel writing to first control register, 10Hz data
 
-	def data_convert(number):
-	#converts a 2 byte number into a signed one
-		mag = number & ( 0x8000)
-		sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
-		return -(1<<(16))+mag
-
-	def read(self):
 		x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
 		x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
@@ -51,13 +44,12 @@ class IMU_gyro(IMU_device):
 		self.address = device_address
 		IMU_device.bus.write_byte_data(self.address,0x20, 0xbf) #enables the accel writing to first control register, 10Hz data
 
-	def data_convert(number):
-	#converts a 2 byte number into a signed one
-		mag = number & ( 0x8000)
-		sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
-		return -(1<<(16))+mag
-
 	def read(self):
+		def data_convert(number):
+		#converts a 2 byte number into a signed one
+			mag = number & ( 0x8000)
+			sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
+			return -(1<<(16))+mag
 		x  = IMU_device.bus.read_byte_data(self.address, 0x29) << 8 #read and shift to MSB
 		x |= IMU_device.bus.read_byte_data(self.address, 0x28)      #read LSB and combine with previous
 
@@ -74,13 +66,12 @@ class IMU_comp(IMU_device):
 		IMU_device.bus.write_byte_data(self.address,0x02, 0x00)
 		IMU_device.bus.write_byte_data(self.address,0x01, 0x20)
 
-	def data_convert(number):
-	#converts a 2 byte number into a signed one
-		mag = number & ( 0x8000)
-		sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
-		return -(1<<(16))+mag
-
 	def read(self):
+		def data_convert(number):
+		#converts a 2 byte number into a signed one
+			mag = number & ( 0x8000)
+			sig = number & (~0x8000)#the operator ~ in python does ~n => -n-1
+			return -(1<<(16))+mag
 		x  = IMU_device.bus.read_byte_data(self.address, 0x04) << 8 #read and shift to MSB
 		x |= IMU_device.bus.read_byte_data(self.address, 0x03)      #read LSB and combine with previous
 
