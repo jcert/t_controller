@@ -2,14 +2,19 @@
 #make a clean-all option
 sudo apt-get install python-setuptools
 
+echo ">>>installing RPIO"
 git clone --branch v2 https://github.com/metachris/RPIO.git
 sudo python RPIO/setup.py install
+rm -rf RPIO
 
+echo ">>>installing i2c tools"
 sudo apt-get install build-essential libi2c-dev i2c-tools python-dev libffi-dev
 
-git clone https://github.com/bivab/smbus-cffi.git
-sudo python smbus-cffi/setup.py install
+sudo apt-get install python-smbus
 
+#raspi-config enable i2c
+echo "to enable i2c use the command raspi-config"
+echo "then, go to advanced options, select i2c" 
 
 
 
