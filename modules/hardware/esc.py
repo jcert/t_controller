@@ -110,7 +110,7 @@ class motor(object):
             self.__IO.set_servo(self.__pin, PW)
 
 
-from motor import motor
+
 
 mymotor = motor('m1', 17, simulation=False)
 #where 17 is  GPIO17 = pin 11
