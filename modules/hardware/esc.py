@@ -119,7 +119,7 @@ print('***Disconnect ESC power')
 print('***then press ENTER')
 res = raw_input()
 mymotor.start()
-mymotor.setW(100)
+
 
 #NOTE:the angular motor speed W can vary from 0 (min) to 100 (max)
 #the scaling to pwm is done inside motor class

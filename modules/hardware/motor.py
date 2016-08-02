@@ -9,16 +9,16 @@ import RPIO
 import RPIO.PWM as PWM
 import math
 import threading
-import RPi.GPIO as GPIO
+
 
 
 class motor: #has all motors in one class, what about the 2 wheels and caster? would've been better to make a class for motors, one for driver (w/ 2 motors in) and then a super-class w/ 2 driver in it.
 	def __init__(self):
 		
 		
-		RPIO.setmode(RPIO.BCM)
-		PWM.setup(10,0)#put this in def __init__():
-		PWM.init_channel(2, 100000)
+		RPIO.setmode(RPIO.BOARD)
+		#RPIO.PWM.setup(1) #put this in def __init__():
+		#PWM.init_channel(3, 3000)
 	class driver:
 		def __init__(self):
 			self.motor_list=[]
@@ -35,27 +35,30 @@ class motor: #has all motors in one class, what about the 2 wheels and caster? w
 			pins = self.motor_list[motor_id]
 			if pwmotor>0:
 				print "kkkkkkkk", pins[0]
-				PWM.add_channel_pulse(2,pins[0],0,pwmotor)
-				PWM.add_channel_pulse(2,pins[1],0,0)
+				PWM.add_channel_pulse(3,pins[0],0,pwmotor)
+				PWM.add_channel_pulse(3,pins[1],0,0)
+				
 			else:
 				PWM.add_channel_pulse(2,pins[0],0,0)
 				PWM.add_channel_pulse(2,pins[1],0,pwmotor)
-GPIO.setmode(GPIO.BOARD)
 
+RPIO.PWM.setup(1)
+PWM.init_channel(3,3000)
+PWM.add_channel_pulse(3,16,0,2000)
 mot1=motor()
 driver1=mot1.driver()
-driver1.add_motor(40,19)
+driver1.add_motor(16,19)
 
 cycling=True
 while cycling:
 	res=raw_input()
 	if res=='1':
-		driver1.set_velocity(2000,0)
+		driver1.set_velocity(200,0)
 		print "mememememe"
-		PWM.print_channel(2)
+		PWM.print_channel(3)
 		
 	if res=='0':
-		PWM.clear_channel(2)
+		PWM.clear_channel(3)
 		cycling=False
 
 
