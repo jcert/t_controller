@@ -1,5 +1,7 @@
 #!/bin/sh
-#this will also make a copy of the original files, just in case
+#this is used to make the Pi have wifi connection, so you can connect to it
+#you can change the files to put different names and passwords to it
+#this will also make a copy of the original files, just in case.
 #if you run it twice the real original files will be lost, so
 #reallocate them before doing so
 #run this as sudo
@@ -29,16 +31,17 @@ cp interfaces /etc/network/interfaces
 echo "static ip on wlan0"
 ifconfig wlan0 192.168.42.1
 
+echo "starting hostapd"
+hostapd
+
 echo "configuring hostapd.conf"
 cp /etc/hostapd/hostapd.conf    originals/hostapd.conf
 cp hostapd.conf  /etc/hostapd/hostapd.conf    
 
-echo "starting hostapd"
-hostapd
 echo "configuring hostapd"
 cp /etc/default/hostapd  originals/hostapd
 cp hostapd  /etc/default/hostapd  
 
 echo "configuring sysctl.conf"
 cp /etc/sysctl.conf   originals/sysctl.conf
-cp sysctl.conf  /etc/sysctl.conf   
+cp sysctl.conf  /etc/sysctl.conf  

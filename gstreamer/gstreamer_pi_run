@@ -1,5 +1,6 @@
 #!/bin/sh
-#find how to pass the ip by parameter
+#the Pi ip is the first, and only, parameter this scipt takes
+#notice it uses the ip you just gave and port 5000 to send the video 
 
 if [ "$#" -ne 1 ]; then
     echo "Illegal number of parameters, must have 1. Pi_IP"

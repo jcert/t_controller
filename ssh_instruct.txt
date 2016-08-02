@@ -6,3 +6,35 @@ have an IP.
 check connection info for your IP as host, use it on nmap (the terminal command)
 to find the RPi IP, connect via ssh using:
 ssh pi@<its IP>
+
+to find the ip of the pi you can use:
+	hostname -I
+	output ex: 
+	192.164.10.13 10.42.0.5
+
+the pi will be connected to one of this nets
+so use the ips resulted from hostname in the nmap command
+	nmap <first-3-bytes-of-IP>.0/22
+	output ex: 
+	Starting Nmap 7.01 ( https://nmap.org ) at 2016-07-27 14:53 EDT
+	Nmap scan report for 10.42.0.1
+	Host is up (0.000040s latency).
+	Not shown: 999 closed ports
+	PORT   STATE SERVICE
+	53/tcp open  domain
+
+	Nmap scan report for 10.42.0.248
+	Host is up (0.0038s latency).
+	Not shown: 999 closed ports
+	PORT   STATE SERVICE
+	22/tcp open  ssh
+
+	Nmap done: 256 IP addresses (2 hosts up) scanned in 2.31 seconds
+
+put one of the ips you got before, change the last byte to zero, that is,
+if you got 192.164.10.13, write 'nmap 192.164.10.0/22'
+
+one of the ips is the pi, one with the ssh port open. now use that to
+ssh pi@<its IP>
+
+
