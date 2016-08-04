@@ -4,7 +4,9 @@ sudo apt-get install python-setuptools
 
 echo ">>>installing RPIO"
 git clone --branch v2 https://github.com/metachris/RPIO.git
-sudo python RPIO/setup.py install
+cd RPIO
+sudo python setup.py install
+cd ../
 rm -rf RPIO
 
 echo ">>>installing i2c tools"
