@@ -13,8 +13,11 @@ import time
 
 #spin in reverse direction, same time between speed changes
 
+
+#<this has to be moved into the motor module
 RPIO.PWM.setup(1)
 PWM.init_channel(3,3000)
+#/>
 #PWM.add_channel_pulse(3,16,0,2000)
 mot1     = motor.motor()
 driver1  = mot1.driver()
