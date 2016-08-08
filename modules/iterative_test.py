@@ -1,7 +1,7 @@
-import modules.hardware.encoder as encoder
-import modules.hardware.esc     as esc
-import modules.hardware.motor   as motor
-import modules.hardware.imu     as imu
+import hardware.encoder as encoder
+import hardware.esc     as esc
+import hardware.motor   as motor
+import hardware.imu     as imu
 import thread
 import re
 
