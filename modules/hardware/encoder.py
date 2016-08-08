@@ -1,5 +1,7 @@
 import RPIO #gpio library of choice, gives us better pwm
 import time
+import threading
+
 
 class encoders:
 	FREQ = 100 # sampling frequency for the encoders 
@@ -13,6 +15,9 @@ class encoders:
 		RPIO.setmode(RPIO.BCM)
 		RPIO.setup(encoders.a, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
 		RPIO.setup(encoders.b, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
+		self.thread = threading.Thread(target=self.update_loop)
+		self.thread.start()
+	
 	def update_loop(self):
 		while True:
 			self.update
