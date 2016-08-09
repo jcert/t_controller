@@ -11,7 +11,7 @@ component    =  encoder.encoder(16) #pin C
 
 component_measure.update()
 
-mymotor = esc.motor('m1', 17, simulation=False)
+mymotor = esc.motor('m1', 5, simulation=False)
 mymotor.start()
 mymotor.setW(0)
 
@@ -20,12 +20,12 @@ x = imu.IMU_device(0x19,0x6b,0x1e)  #remember to connect the imu,
 mot1     = motor.motor()
 
 driver1  = mot1.driver()
-driver1.add_motor(16,19)#put the right pins for each of the motors
-driver1.add_motor(16,19)
+driver1.add_motor(21,20)#put the right pins for each of the motors
+driver1.add_motor(26,16)
 
 driver2  = mot1.driver()
-driver2.add_motor(16,19)
-driver1.add_motor(16,19)
+driver2.add_motor(19,13)
+driver1.add_motor(12,6)
 
 #loop:
 run = True
