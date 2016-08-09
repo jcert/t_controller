@@ -6,8 +6,8 @@ import thread
 import re
 
 #setup:
-component_measure = encoder.encoders(20,21) #pins A and B
-component    =  encoder.encoder(16) #pin C
+component_measure = encoder.encoders(24,23) #pins A and B
+component    =  encoder.encoder(22) #pin C
 
 component_measure.update()
 
