@@ -29,7 +29,7 @@ class encoders:
 		for i in encoders.connected_encoders:
 			i.update()
 	
-	def kill():
+	def kill(self):
 		self.running = False
 
 class encoder(encoders):
