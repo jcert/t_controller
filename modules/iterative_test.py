@@ -40,12 +40,7 @@ while run:
 	if(match):
 		print "doing: brush ",match.group(1)
 		change = int(match.group(1))
-		if change > 0:
-			for i in range(0,change):
-				mymotor.increaseW()
-		else:
-			for i in range(0,-change):
-				mymotor.decreaseW()
+		mymotor.setW(change)
 		pass
 	match = re.search(r"\Aimu", command)
 	if(match):
