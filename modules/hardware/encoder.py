@@ -4,7 +4,7 @@ import threading
 
 
 class encoders:
-	FREQ = 100 # sampling frequency for the encoders 
+	#FREQ = 100 # sampling frequency for the encoders 
 	connected_encoders = [] 
 	a = 0
 	b = 0
@@ -20,8 +20,9 @@ class encoders:
 	
 	def update_loop(self):
 		while True:
+			global FREQ
 			self.update
-			time.sleep(1.0/FREQ)
+			time.sleep(1.0/100)#used to be the FREQ
 
 	def update(self):
 		for i in encoders.connected_encoders:

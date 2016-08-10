@@ -15,8 +15,10 @@ import threading
 class motor: #has all motors in one class, what about the 2 wheels and caster? would've been better to make a class for motors, one for driver (w/ 2 motors in) and then a super-class w/ 2 driver in it.
 	def __init__(self):
 		print "will this show?motor.motor.init"
-		
-		RPIO.PWM.setup(1) #put this in def __init__():
+		try :
+			PWM.setup(1) #put this in def __init__():
+		except :
+			pass
 		PWM.init_channel(3, 3000)
 	class driver:
 		def __init__(self):

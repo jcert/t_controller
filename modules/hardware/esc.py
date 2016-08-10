@@ -14,9 +14,12 @@ class motor(object):
 
         try:
             from RPIO import PWM
-            self.__IO = PWM.Servo()
+            self.__IO = PWM.Servo(dma_channel=1)
         except ImportError:
             self.simulation = True
+        except :
+            pass
+
 
     def setDebug(self, debug):
         self.__debug = debug
@@ -70,6 +73,8 @@ class motor(object):
             except ImportError:
                 self.simulation = True
                 self.powered = False
+            except:
+                pass	
 
     def stop(self):
         "Stop PWM signal"

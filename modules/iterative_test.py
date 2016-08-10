@@ -15,7 +15,7 @@ mymotor = esc.motor('m1', 5, simulation=False)
 mymotor.start()
 mymotor.setW(0)
 
-x = imu.IMU_device(0x19,0x6b,0x1e)  #remember to connect the imu, 
+#x = imu.IMU_device(0x19,0x6b,0x1e)  #remember to connect the imu, 
 												#addresses are fixed
 mot1     = motor.motor()
 
