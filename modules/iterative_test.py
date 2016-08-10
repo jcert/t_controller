@@ -25,16 +25,22 @@ driver1.add_motor(26,16)
 
 driver2  = mot1.driver()
 driver2.add_motor(19,13)
-driver1.add_motor(12,6)
+driver2.add_motor(12,6)
 
 #loop:
 run = True
 while run:
 	print "commands are: move dist angle; brush duty; imu; encoder; exit;"
 	command = raw_input()
-	match = re.search(r"\Amove (\d*) (\d*)", command)
+	match = re.search(r"\Amove (-?\d+) (-?\d+)", command)
 	if(match):
-		print "doing: move ",match.group(1),match.group(2) #remember these groups are strings, use Int(group_a) to convert them to ints
+		print "doing: move ",match.group(1),match.group(2) #remember these groups are strings, use int(group_a) to convert them to ints
+		v1 = int(match.group(1))
+		v2 = int(match.group(2))
+		driver1.set_velocity(v1,0)
+		driver1.set_velocity(v1,1)
+		driver2.set_velocity(v2,0)
+		driver2.set_velocity(v2,1)
 		pass
 	match = re.search(r"\Abrush (-?\d+)", command)
 	if(match):

@@ -34,12 +34,12 @@ class motor: #has all motors in one class, what about the 2 wheels and caster? w
 		def set_velocity(self,pwmotor,motor_id):
 			pins = self.motor_list[motor_id]
 			if pwmotor>0:
-				PWM.add_channel_pulse(3,pins[0],0,pwmotor)
+				PWM.add_channel_pulse(3,pins[0],0,abs(pwmotor))
 				PWM.add_channel_pulse(3,pins[1],0,0)
 				
 			else:
-				PWM.add_channel_pulse(2,pins[0],0,0)
-				PWM.add_channel_pulse(2,pins[1],0,pwmotor)
+				PWM.add_channel_pulse(3,pins[0],0,0)
+				PWM.add_channel_pulse(3,pins[1],0,abs(pwmotor))
 
 
 
