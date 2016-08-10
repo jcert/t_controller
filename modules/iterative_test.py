@@ -39,7 +39,7 @@ while run:
 	match = re.search(r"\Abrush (\d*)", command)
 	if(match):
 		print "doing: brush ",match.group(1)
-		change = Int(match.group(1))
+		change = int(match.group(1))
 		if change > 0:
 			for i in range(0,change):
 				mymotor.increaseW()
