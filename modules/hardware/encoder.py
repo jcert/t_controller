@@ -15,11 +15,12 @@ class encoders:
 		RPIO.setmode(RPIO.BCM)
 		RPIO.setup(encoders.a, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
 		RPIO.setup(encoders.b, RPIO.IN, pull_up_down=RPIO.PUD_DOWN)
+		self.running = True
 		self.thread = threading.Thread(target=self.update_loop)
 		self.thread.start()
 	
 	def update_loop(self):
-		while True:
+		while self.running:
 			global FREQ
 			self.update
 			time.sleep(1.0/100)#used to be the FREQ
@@ -27,6 +28,9 @@ class encoders:
 	def update(self):
 		for i in encoders.connected_encoders:
 			i.update()
+	
+	def kill():
+		self.running = False
 
 class encoder(encoders):
 
