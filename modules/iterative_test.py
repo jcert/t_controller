@@ -50,6 +50,7 @@ while run:
 		pass
 	match = re.search(r"\Aexit", command)
 	if(match):
+		component_measure.kill()
 		run = False #ends the loop
 		pass
 
