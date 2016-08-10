@@ -66,7 +66,7 @@ class motor(object):
         if not self.simulation:
             try:
                 from RPIO import PWM
-                self.__IO = PWM.Servo()
+                self.__IO = PWM.Servo(dma_channel=1)
                 self.powered = True
                 #TODO Decide How to manage the WMax < 100
                 #to keep anyhow the throttle range 0-100
@@ -74,6 +74,7 @@ class motor(object):
                 self.simulation = True
                 self.powered = False
             except:
+                self.powered = True
                 pass	
 
     def stop(self):

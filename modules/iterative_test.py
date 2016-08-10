@@ -36,7 +36,7 @@ while run:
 	if(match):
 		print "doing: move ",match.group(1),match.group(2) #remember these groups are strings, use Int(group_a) to convert them to ints
 		pass
-	match = re.search(r"\Abrush (\d*)", command)
+	match = re.search(r"\Abrush (-?\d+)", command)
 	if(match):
 		print "doing: brush ",match.group(1)
 		change = int(match.group(1))
