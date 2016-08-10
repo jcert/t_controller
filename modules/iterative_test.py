@@ -39,6 +39,13 @@ while run:
 	match = re.search(r"\Abrush (\d*)", command)
 	if(match):
 		print "doing: brush ",match.group(1)
+		change = Int(match.group(1))
+		if change > 0:
+			for i in range(0,change):
+				mymotor.increaseW()
+		else:
+			for i in range(0,-change):
+				mymotor.decreaseW()
 		pass
 	match = re.search(r"\Aimu", command)
 	if(match):
@@ -47,6 +54,7 @@ while run:
 	match = re.search(r"\Aencoder", command)
 	if(match):
 		print "doing: encoder "
+		print "value C1: ",component.get_dist()
 		pass
 	match = re.search(r"\Aexit", command)
 	if(match):
