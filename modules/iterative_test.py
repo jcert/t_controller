@@ -4,6 +4,7 @@ import hardware.motor   as motor
 import hardware.imu     as imu
 import thread
 import re
+import RPIO.PWM as PWM
 
 #setup:
 component_measure = encoder.encoders(24,23) #pins A and B
@@ -51,6 +52,14 @@ while run:
 	match = re.search(r"\Aimu", command)
 	if(match):
 		print "doing: imu "
+		pass
+	match = re.search(r"\APWM", command)
+	if(match):
+		print "doing: PWM info "
+		PWM.print_channel(0)
+		PWM.print_channel(1)
+		PWM.print_channel(2)
+		PWM.print_channel(3)
 		pass
 	match = re.search(r"\Aencoder", command)
 	if(match):
