@@ -30,6 +30,8 @@ class motor: #has all motors in one class, what about the 2 wheels and caster? w
 		def set_velocity(self,pwmotor,motor_id):
 			pins = self.motor_list[motor_id]
 			c = get_channel_subcycle_time_us(0)/100.0 #coefficient to convert duty to period
+			PWM.clear_channel_gpio(0, pins[0])
+			PWM.clear_channel_gpio(0, pins[1])
 			if pwmotor>0:
 				PWM.add_channel_pulse(0,pins[0],0,abs(pwmotor)*c)
 				PWM.add_channel_pulse(0,pins[1],0,0)
