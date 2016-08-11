@@ -14,11 +14,9 @@ class motor(object):
 
         try:
             from RPIO import PWM
-            self.__IO = PWM.Servo(dma_channel=1)
+            self.__IO = PWM.Servo()
         except ImportError:
             self.simulation = True
-        except :
-            pass
 
 
     def setDebug(self, debug):
@@ -66,16 +64,13 @@ class motor(object):
         if not self.simulation:
             try:
                 from RPIO import PWM
-                self.__IO = PWM.Servo(dma_channel=1)
+                self.__IO = PWM.Servo()
                 self.powered = True
                 #TODO Decide How to manage the WMax < 100
                 #to keep anyhow the throttle range 0-100
             except ImportError:
                 self.simulation = True
                 self.powered = False
-            except:
-                self.powered = True
-                pass	
 
     def stop(self):
         "Stop PWM signal"
@@ -110,7 +105,8 @@ class motor(object):
             self.__W = self.__WMin
         if self.__W > self.__WMax:
             self.__W = self.__WMax
-        PW = (1000 + (self.__W) * 10)
+			#on time[us]/granularity[us]
+        PW = (10000 + (self.__W) * 100)/get_pulse_incr_us() 
         # Set servo to xxx us
         if self.powered:
             self.__IO.set_servo(self.__pin, PW)

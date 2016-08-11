@@ -7,6 +7,10 @@ import re
 import RPIO.PWM as PWM
 
 #setup:
+	
+PWM.cleanup()
+PWM.setup(pulse_incr_us=10, delay_hw=0)
+
 component_measure = encoder.encoders(24,23) #pins A and B
 component    =  encoder.encoder(22) #pin C
 
