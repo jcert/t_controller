@@ -1,5 +1,7 @@
 #!/etc/sh
 #make a clean-all option
+#to run this use: sudo bash <name of the file>
+
 sudo apt-get install python-setuptools
 
 echo ">>>installing RPIO"

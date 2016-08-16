@@ -1,5 +1,6 @@
 #!/bin/sh
 #run with sudo
+#to run this use: sudo bash <name of the file>
 #this should install the gstreamer used for video transmission
 
 sudo apt-get install gstreamer1.0-*
