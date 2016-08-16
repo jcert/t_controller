@@ -98,7 +98,7 @@ class motor(object):
 
     def setW(self, W):
         "Checks W% is between limits than sets it"
-
+	import RPIO.PWM as PWM
         PW = 0
         self.__W = W
         if self.__W < self.__WMin:
@@ -106,7 +106,7 @@ class motor(object):
         if self.__W > self.__WMax:
             self.__W = self.__WMax
 			#on time[us]/granularity[us]
-        PW = (10000 + (self.__W) * 100)/get_pulse_incr_us() 
+        PW = ((PWM.get_channel_subcycle_time_us(0) * self.__W)/100)/PWM.get_pulse_incr_us() 
         # Set servo to xxx us
         if self.powered:
             self.__IO.set_servo(self.__pin, PW)
