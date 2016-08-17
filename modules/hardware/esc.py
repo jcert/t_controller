@@ -14,7 +14,7 @@ class motor(object):
 
         try:
             from RPIO import PWM
-            self.__IO = PWM.Servo()
+            self.__IO = PWM.Servo(subcycle_time_us=200)
         except ImportError:
             self.simulation = True
 
@@ -64,7 +64,7 @@ class motor(object):
         if not self.simulation:
             try:
                 from RPIO import PWM
-                self.__IO = PWM.Servo()
+                self.__IO = PWM.Servo(subcycle_time_us=200)
                 self.powered = True
                 #TODO Decide How to manage the WMax < 100
                 #to keep anyhow the throttle range 0-100
