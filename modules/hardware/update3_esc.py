@@ -32,7 +32,7 @@ class motor(object):
     More info on RPIO in http://pythonhosted.org/RPIO/index.html"""
 
 
-    def __init__(self, name, pin, kv=1000, WMin=0, WMax=100, debug=True, simulation=True):
+    def __init__(self, name, pin, kv=1000, WMin=0, WMax=100, debug=True, simulation=False):
         self.name = name
         self.powered = False
         self.simulation = simulation
